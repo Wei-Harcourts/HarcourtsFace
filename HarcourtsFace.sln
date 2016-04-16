@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{216118B1-FAFD-403B-8831-102D59481290}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{D1728BE9-D604-4E0D-B5A0-039FF31EA400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recognition", "Recognition\Recognition.csproj", "{063A1453-4DFE-4617-B4AC-0FE97707E6AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216118B1-FAFD-403B-8831-102D59481290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216118B1-FAFD-403B-8831-102D59481290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216118B1-FAFD-403B-8831-102D59481290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216118B1-FAFD-403B-8831-102D59481290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1728BE9-D604-4E0D-B5A0-039FF31EA400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1728BE9-D604-4E0D-B5A0-039FF31EA400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1728BE9-D604-4E0D-B5A0-039FF31EA400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1728BE9-D604-4E0D-B5A0-039FF31EA400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063A1453-4DFE-4617-B4AC-0FE97707E6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063A1453-4DFE-4617-B4AC-0FE97707E6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063A1453-4DFE-4617-B4AC-0FE97707E6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063A1453-4DFE-4617-B4AC-0FE97707E6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
