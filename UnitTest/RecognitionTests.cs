@@ -8,11 +8,13 @@ namespace Harcourts.Face.UnitTest
     internal class RecognitionTests
     {
         [Test]
-        public void Detect_Test()
+        public void DevsTest()
         {
             var engine = new BetaFaceEngine();
             var imageUri = new Uri("http://photos.harcourts.co.nz/V2/000/012/082/122-Jamin-Marshall.jpg");
-            engine.UploadImageUrl(imageUri, DetectionFlags.Default);
+            var image = engine.UploadImageUrl(imageUri, DetectionFlags.Default);
+
+            var imageInfo = engine.GetImageInfo(image.ImageUid);
         }
     }
 }

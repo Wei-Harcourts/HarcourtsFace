@@ -20,8 +20,11 @@
 // Original JsonSerializer contributed by Daniel Crenna (@dimebrain)
 #endregion
 
+using System;
 using System.IO;
 using Newtonsoft.Json;
+using RestSharp;
+using RestSharp.Deserializers;
 using RestSharp.Serializers;
 
 namespace Harcourts.Face.Recognition.Betaface.Json
@@ -30,14 +33,15 @@ namespace Harcourts.Face.Recognition.Betaface.Json
     /// Default JSON serializer for request bodies
     /// Doesn't currently use the SerializeAs attribute, defers to Newtonsoft's attributes
     /// </summary>
-    public class JsonSerializer : ISerializer
+    public class NewtonsoftJsonSerializer : ISerializer, IDeserializer
     {
         private readonly Newtonsoft.Json.JsonSerializer _serializer;
+        public static readonly NewtonsoftJsonSerializer Default = new NewtonsoftJsonSerializer();
 
         /// <summary>
         /// Default serializer
         /// </summary>
-        public JsonSerializer()
+        public NewtonsoftJsonSerializer()
         {
             ContentType = "application/json";
             _serializer = new Newtonsoft.Json.JsonSerializer
@@ -51,7 +55,7 @@ namespace Harcourts.Face.Recognition.Betaface.Json
         /// <summary>
         /// Default serializer with overload for allowing custom Json.NET settings
         /// </summary>
-        public JsonSerializer(Newtonsoft.Json.JsonSerializer serializer)
+        public NewtonsoftJsonSerializer(Newtonsoft.Json.JsonSerializer serializer)
         {
             ContentType = "application/json";
             _serializer = serializer;
@@ -75,6 +79,24 @@ namespace Harcourts.Face.Recognition.Betaface.Json
 
                     var result = stringWriter.ToString();
                     return result;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Deserialize the JSON content to object.
+        /// </summary>
+        /// <param name="response">Response containing JSON content.</param>
+        /// <returns>Deserialized object.</returns>
+        public T Deserialize<T>(IRestResponse response)
+        {
+            var content = response.Content;
+
+            using (var stringReader = new StringReader(content))
+            {
+                using (var jsonTextReader = new JsonTextReader(stringReader))
+                {
+                    return _serializer.Deserialize<T>(jsonTextReader);
                 }
             }
         }
