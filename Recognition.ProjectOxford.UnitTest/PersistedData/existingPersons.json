@@ -1,0 +1,722 @@
+﻿[
+  {
+    "PersonId":"02823ebc-7942-4bfd-9b95-9cf92230485f",
+    "PersistedFaceIds":[
+      "97a91e6b-d89c-4418-837f-878235dea596"
+    ],
+    "Name":"Amanda Bowden",
+    "UserData":"rhonda.tapp@harcourts.co.nz"
+  },
+  {
+    "PersonId":"04df6017-3b56-4291-855a-bb2467d9e2a4",
+    "PersistedFaceIds":[
+      "62c1dff2-ce7d-490a-8c59-edcdf7ca1960"
+    ],
+    "Name":"John Siebert",
+    "UserData":"john@assetmanagers.co.nz"
+  },
+  {
+    "PersonId":"0a196948-92d9-44f5-9656-e0a0949833aa",
+    "PersistedFaceIds":[
+      "0cd8eabc-cb46-43c5-a29e-74b24042499d"
+    ],
+    "Name":"Ruth McEvoy",
+    "UserData":"admin.avonhead@harcourts.co.nz"
+  },
+  {
+    "PersonId":"0a99f894-a10d-47f7-89c4-2003ea7e2d23",
+    "PersistedFaceIds":[
+      "72498a15-14c0-4eae-bf51-beb660de78df"
+    ],
+    "Name":"Matt Dawson",
+    "UserData":"matt.dawson@harcourts.co.nz"
+  },
+  {
+    "PersonId":"0aae7bc8-38ba-4318-a775-c5995d8eb978",
+    "PersistedFaceIds":[
+      "261169de-a951-4816-8e9e-a5f2ef6f4935"
+    ],
+    "Name":"Tracy Chen",
+    "UserData":"tracy.chen@naiharcourts.co.nz"
+  },
+  {
+    "PersonId":"0b55543b-ec86-4d5d-82a0-2db8d308c08f",
+    "PersistedFaceIds":[
+      "400da0dd-17cc-436a-bd98-17572422d4c1"
+    ],
+    "Name":"Dee Villanueva",
+    "UserData":"pmassistchch@naiharcourts.co.nz"
+  },
+  {
+    "PersonId":"0c6fa036-12ff-4c5f-af11-430e1def5536",
+    "PersistedFaceIds":[
+      "c9a614b8-34f1-495c-a72a-d9850ddf7d37"
+    ],
+    "Name":"James Bastin",
+    "UserData":"james.bastin@harcourts.co.nz"
+  },
+  {
+    "PersonId":"0f912bb3-673b-4c28-8f3c-256ece34bde2",
+    "PersistedFaceIds":[
+      "3e1bee0c-7a39-4931-a757-1c8a10ae3103"
+    ],
+    "Name":"Claudia Cathcart",
+    "UserData":"admin.city@harcourts.co.nz"
+  },
+  {
+    "PersonId":"13f59bc2-d4f3-4e7f-9b28-d0843d29702f",
+    "PersistedFaceIds":[
+      "7dc38bfa-0edb-4a04-b04e-7cfb5ba634ae"
+    ],
+    "Name":"Peter Rookes AREINZ",
+    "UserData":"peter.rookes@harcourts.co.nz"
+  },
+  {
+    "PersonId":"2342d0e9-ae0a-4e76-8f8b-7fe929d4237f",
+    "PersistedFaceIds":[
+      "1aa13566-157e-40b0-b6e7-22819770a571"
+    ],
+    "Name":"Matthew Loose",
+    "UserData":"matthew.loose@harcourts.co.nz"
+  },
+  {
+    "PersonId":"254b0e3a-e4e2-4aba-9b55-3361de1ba445",
+    "PersistedFaceIds":[
+      "e4c2fd11-7bee-47fe-b9cd-05796fba7d92"
+    ],
+    "Name":"Len Carragher",
+    "UserData":"leonard.carragher@harcourts.co.nz"
+  },
+  {
+    "PersonId":"2579cfef-1538-4a7d-ae96-62d0b504e0d3",
+    "PersistedFaceIds":[
+      "8dbbd7e5-eb80-422f-85c4-3100481d78a0"
+    ],
+    "Name":"Miranda Findlay",
+    "UserData":"miranda.jono@harcourts.co.nz"
+  },
+  {
+    "PersonId":"292a3813-2299-4fc6-8b97-43b0725fb7a2",
+    "PersistedFaceIds":[
+      "bf34eb43-1c6c-42ea-93a4-568878e4a8af"
+    ],
+    "Name":"Katrina Leger",
+    "UserData":"katrina.leger@harcourts.co.nz"
+  },
+  {
+    "PersonId":"2bd23b64-3db0-4f4d-80bf-7280fcff2ca1",
+    "PersistedFaceIds":[
+      "449daaf6-8bd3-4c12-b4cb-58fd7d89be20"
+    ],
+    "Name":"Judith Haslam",
+    "UserData":"judith.haslam@harcourts.co.nz"
+  },
+  {
+    "PersonId":"312d5b44-40e6-4eae-8c5d-d8232c52649f",
+    "PersistedFaceIds":[
+      "1ba4bd4a-e186-414a-8fea-541517e48c9e"
+    ],
+    "Name":"Adrienne Shaw",
+    "UserData":"adrienne.shaw@harcourts.co.nz"
+  },
+  {
+    "PersonId":"3792ec36-370e-49ec-a6a8-33c10445735f",
+    "PersistedFaceIds":[
+      "dc6b5af0-b37f-46dd-bae4-b16b7fb5d138"
+    ],
+    "Name":"Christopher Graham",
+    "UserData":"christopher.graham@harcourts.co.nz"
+  },
+  {
+    "PersonId":"39683215-8bda-4dfc-ad94-505ced6cbce5",
+    "PersistedFaceIds":[
+      "ecfd454d-aa16-462b-93ab-7668a73764da"
+    ],
+    "Name":"Andy Freeman AREINZ Nat.Dip.R.E",
+    "UserData":"andy.freeman@harcourts.co.nz"
+  },
+  {
+    "PersonId":"3a320815-3b83-4ab3-b872-173219098d81",
+    "PersistedFaceIds":[
+      "73db7068-b58d-4269-a4c1-09f67c38cc1d"
+    ],
+    "Name":"Chris Chapman",
+    "UserData":"chris.chapman@naiharcourts.co.nz"
+  },
+  {
+    "PersonId":"45ccd62e-9d7f-4537-8cff-b3afe1a7db91",
+    "PersistedFaceIds":[
+      "36eddfa6-74fd-45fc-996e-4026412d3dd1"
+    ],
+    "Name":"Nigel Bowden AREINZ, BCom, BA",
+    "UserData":"nigel@assetmanagers.co.nz"
+  },
+  {
+    "PersonId":"47776104-ab08-4d01-af8d-ecf203b8fc37",
+    "PersistedFaceIds":[
+      "a0705991-34bc-4435-ad00-ef09948bcf22"
+    ],
+    "Name":"Emma Stevenson",
+    "UserData":"emma.stevenson@harcourts.co.nz"
+  },
+  {
+    "PersonId":"47c55535-48e2-49b9-a588-5a866c92a8ad",
+    "PersistedFaceIds":[
+      "59aecc3f-73ba-43d9-b88a-5a6757b19e7c"
+    ],
+    "Name":"Chloe McGill",
+    "UserData":"chloe@assetmanagers.co.nz"
+  },
+  {
+    "PersonId":"498e7434-be26-45ec-8a76-81595a78d578",
+    "PersistedFaceIds":[
+      "95b68c2e-13e8-4cc7-abd2-55cc9a15eb0f"
+    ],
+    "Name":"Alethea Lock",
+    "UserData":"enquiries@assetmanagers.co.nz"
+  },
+  {
+    "PersonId":"4c0fe036-8e63-406f-8299-35477ed669be",
+    "PersistedFaceIds":[
+      "403ae26a-1090-42b4-8746-583fb567df0b"
+    ],
+    "Name":"David Kang",
+    "UserData":"david.kang@harcourts.co.nz"
+  },
+  {
+    "PersonId":"4df41551-8a94-412a-b9d6-e6329f547eaa",
+    "PersistedFaceIds":[
+      "15263095-1a3d-4d7b-ac60-c57451e39513"
+    ],
+    "Name":"Karen Eastwood",
+    "UserData":"karen.eastwood@harcourts.co.nz"
+  },
+  {
+    "PersonId":"51055f0a-e7b1-465d-9342-fb8306d853bf",
+    "PersistedFaceIds":[
+      "35705072-e3bf-4ae5-84a0-51b2c32bfb54"
+    ],
+    "Name":"Max Kozin",
+    "UserData":"max.kozin@harcourts.co.nz"
+  },
+  {
+    "PersonId":"52e9cfb9-7bd3-4f0b-bba1-efcae2f9be53",
+    "PersistedFaceIds":[
+      "740f7f06-4cbf-4462-9005-31cad8ae4f7d"
+    ],
+    "Name":"Roger Dawson AREINZ",
+    "UserData":"roger.dawson@harcourts.co.nz"
+  },
+  {
+    "PersonId":"56f135d9-b25b-45e3-a817-ec3ec4a7f2ce",
+    "PersistedFaceIds":[
+
+    ],
+    "Name":"Ashlee Warman",
+    "UserData":"enquiries.akaroa@harcourts.co.nz"
+  },
+  {
+    "PersonId":"58e6c724-7331-483e-b3ca-362fc6e877fd",
+    "PersistedFaceIds":[
+      "5141b4fb-5b6c-4acc-be31-18ca0aaf567a"
+    ],
+    "Name":"Hadley Weir",
+    "UserData":"hadley.weir@harcourts.co.nz"
+  },
+  {
+    "PersonId":"5b727582-a1ef-4f90-be4b-fd397d8d162d",
+    "PersistedFaceIds":[
+      "0da5f03e-f252-453c-a978-42c9b516b13a"
+    ],
+    "Name":"Garrick Cummins",
+    "UserData":"garrick.cummins@harcourts.co.nz"
+  },
+  {
+    "PersonId":"5cd7bfb4-da8c-4e6b-96cc-4a1a44fc3bc7",
+    "PersistedFaceIds":[
+      "d96fc740-fe06-4556-87e4-8cecd5dc2f01"
+    ],
+    "Name":"Julie Albengrin",
+    "UserData":"julie.albengrin@harcourts.co.nz"
+  },
+  {
+    "PersonId":"5da4322e-da02-459b-a43b-eb13d623569e",
+    "PersistedFaceIds":[
+      "0c067eb8-058d-4ea5-be4c-5b9f714896d1"
+    ],
+    "Name":"Kelly Gottermeyer",
+    "UserData":"louise.mcleavey@harcourts.co.nz"
+  },
+  {
+    "PersonId":"5e36a928-1159-44a5-97d7-d3ae15a98aac",
+    "PersistedFaceIds":[
+      "60624ce0-9004-4f7f-99af-67dc4f5643ac"
+    ],
+    "Name":"Claudia Cockram",
+    "UserData":"claudia.cockram@harcourts.co.nz"
+  },
+  {
+    "PersonId":"61870b9b-c281-46bf-a5b9-4adea900099f",
+    "PersistedFaceIds":[
+      "2ad63972-cbc9-4d1d-9160-cb3624c7f048"
+    ],
+    "Name":"Jeremy Sim",
+    "UserData":"jeremy.sim@harcourts.co.nz"
+  },
+  {
+    "PersonId":"6225b3c2-1ea0-4545-8239-05bc4aef0148",
+    "PersistedFaceIds":[
+      "de859f28-550f-4299-9bd8-40e9e2a378fb"
+    ],
+    "Name":"Jamin Marshall",
+    "UserData":"jamin.marshall@harcourts.co.nz"
+  },
+  {
+    "PersonId":"69c6ab3d-858a-4894-af70-ad86532594a4",
+    "PersistedFaceIds":[
+      "efbeebc5-3be4-4ea7-ab79-b11c1eadd352"
+    ],
+    "Name":"Jacqui Rose",
+    "UserData":"jacqui.rose@harcourts.co.nz"
+  },
+  {
+    "PersonId":"751ac3dd-4304-4ff1-b939-c30ea3721ae7",
+    "PersistedFaceIds":[
+      "f7bc30ff-55f0-475d-869d-f8f3067f2183"
+    ],
+    "Name":"Kyle Pitman",
+    "UserData":"kyle.pitman@harcourts.co.nz"
+  },
+  {
+    "PersonId":"7a73e742-a338-4437-96e0-5fe713931ac1",
+    "PersistedFaceIds":[
+      "7a0ef6ff-f46d-4fda-a9cb-d64b7cd5ddcd"
+    ],
+    "Name":"Carol Williams",
+    "UserData":"carol.davidw@gmail.com"
+  },
+  {
+    "PersonId":"7b434bc5-947f-4929-8024-f42e7ecd615b",
+    "PersistedFaceIds":[
+      "38702c54-148b-4ea4-add0-af95c17e6bc9"
+    ],
+    "Name":"Phillip Young",
+    "UserData":"phillip.young@harcourts.co.nz"
+  },
+  {
+    "PersonId":"7cc777cb-3ae8-48c4-93a7-dc567003d170",
+    "PersistedFaceIds":[
+      "8bb9880a-e6c1-44a2-b318-d2de5ee87634"
+    ],
+    "Name":"Nancy Wang",
+    "UserData":"nancy.wang@harcourts.co.nz"
+  },
+  {
+    "PersonId":"7ec567ce-3faa-4489-bfb1-6e2356ead78d",
+    "PersistedFaceIds":[
+      "35aa9f9f-80f8-4c5e-bf46-379cf4b49da4"
+    ],
+    "Name":"Selena Gemmell",
+    "UserData":"selena.gemmell@harcourts.co.nz"
+  },
+  {
+    "PersonId":"84bbe4a4-dad2-414c-b49d-583d82680988",
+    "PersistedFaceIds":[
+      "250ca3fe-81ab-4b5d-9ebd-7a973cecc2f3"
+    ],
+    "Name":"Michael Mertz",
+    "UserData":"michael.mertz@harcourts.co.nz"
+  },
+  {
+    "PersonId":"851b0b9f-0171-42ea-9ca7-aa1990d94f86",
+    "PersistedFaceIds":[
+      "70cc5f25-48df-4221-bd08-75dac5a5dc95"
+    ],
+    "Name":"Robert McCormack AREINZ FNZIM, Hall of Fame",
+    "UserData":"robt.mccormack@harcourts.co.nz"
+  },
+  {
+    "PersonId":"85f4b60c-3529-4fcf-905f-8eb2477e27bc",
+    "PersistedFaceIds":[
+      "0ccf0dcb-ad61-40be-828a-670e3afa8797"
+    ],
+    "Name":"Natasha Sanderson",
+    "UserData":"natasha.sanderson@harcourts.co.nz"
+  },
+  {
+    "PersonId":"88a49c2b-dc16-4c85-bbfa-53e9a25f489c",
+    "PersistedFaceIds":[
+      "265a0838-f40a-4fa6-b6c2-b24e9243dee7"
+    ],
+    "Name":"Ian Familton",
+    "UserData":"ian.familton@harcourts.co.nz"
+  },
+  {
+    "PersonId":"8969856e-8717-407a-8073-69b249d3a76b",
+    "PersistedFaceIds":[
+      "93075c77-aec0-4f9f-9fc5-73d4ec301cc5"
+    ],
+    "Name":"Annette Warner",
+    "UserData":"annette.warner@harcourts.co.nz"
+  },
+  {
+    "PersonId":"89a14cce-7291-4efd-a0a8-5dad62454fc9",
+    "PersistedFaceIds":[
+      "4ff1d023-1534-450f-a6c5-eacaf8b8e789"
+    ],
+    "Name":"Charlotte Hemens",
+    "UserData":"charlotte.hemens@harcourts.co.nz"
+  },
+  {
+    "PersonId":"8ce1a26c-0859-450d-b979-ea59e848a8b3",
+    "PersistedFaceIds":[
+      "764d7bc2-5c55-4a7d-90ce-e0afc897cf40"
+    ],
+    "Name":"Jasmine Gough",
+    "UserData":"jasmine.lange@harcourts.co.nz"
+  },
+  {
+    "PersonId":"915725bf-e521-41eb-8e98-7b72cb8b4293",
+    "PersistedFaceIds":[
+      "4877e116-4e7d-4187-b790-b9db18827641"
+    ],
+    "Name":"Megan Pettigrew",
+    "UserData":"megan.pettigrew@harcourts.co.nz"
+  },
+  {
+    "PersonId":"9189db35-c012-43f5-af50-54876c6e86e5",
+    "PersistedFaceIds":[
+      "6902d251-2f37-48a5-b437-c05df051aac7"
+    ],
+    "Name":"Marilyn McVicar",
+    "UserData":"marilyn.mcvicar@harcourts.co.nz"
+  },
+  {
+    "PersonId":"92d55fa4-1f58-4d22-8980-c6cf13fc15e1",
+    "PersistedFaceIds":[
+      "8a118366-67b6-48e1-aac8-c73a964d2e50"
+    ],
+    "Name":"Geoff Smith AREINZ",
+    "UserData":"geoffbsmith@xtra.co.nz"
+  },
+  {
+    "PersonId":"935d202c-9965-4773-9f0b-01ddc0e2c39e",
+    "PersistedFaceIds":[
+      "181cec58-4adc-44ed-a764-26a632e287c7"
+    ],
+    "Name":"Carol Smith",
+    "UserData":"carol.smith@harcourts.co.nz"
+  },
+  {
+    "PersonId":"94ddaf5e-b0d7-45f7-9975-17f78fb9010f",
+    "PersistedFaceIds":[
+      "8ca0adff-7aab-49e7-93ef-edee5ca85ba0"
+    ],
+    "Name":"Diana Morgan",
+    "UserData":"jan-louise.chesmar@harcourts.co.nz"
+  },
+  {
+    "PersonId":"96427611-2091-4067-a4af-f5cd4a6f6ec4",
+    "PersistedFaceIds":[
+      "a0684ef3-8cbb-4a80-ae8f-1aceb3e3f067"
+    ],
+    "Name":"Gary Jamieson",
+    "UserData":"gary.jamieson@harcourts.co.nz"
+  },
+  {
+    "PersonId":"969a41e2-b91d-4002-b05a-8cd59c37dfbf",
+    "PersistedFaceIds":[
+      "a39243b5-2054-42e9-aa20-41493da85318"
+    ],
+    "Name":"Ann Parker",
+    "UserData":"ann.parker@harcourts.co.nz"
+  },
+  {
+    "PersonId":"9899c2bc-39ba-431c-a524-09659c12fd8f",
+    "PersistedFaceIds":[
+      "3e67192f-59e0-4413-963d-2a6d7a109458"
+    ],
+    "Name":"Ned Allison",
+    "UserData":"ned.allison@harcourts.co.nz"
+  },
+  {
+    "PersonId":"a344c71a-7984-4250-ad94-f578a17c6340",
+    "PersistedFaceIds":[
+      "66280b42-5e5d-4ecc-b24c-39dc44d63089"
+    ],
+    "Name":"Geri Pratt",
+    "UserData":"reception.commercial@naiharcourts.co.nz"
+  },
+  {
+    "PersonId":"a3660698-60bd-4af5-8c13-8cd7682a9bfd",
+    "PersistedFaceIds":[
+      "10304615-ec3a-475a-856c-3bc1b1465920"
+    ],
+    "Name":"Bryan Bloomfield",
+    "UserData":"bryan.bloomfield@harcourts.co.nz"
+  },
+  {
+    "PersonId":"b02663c6-bb2c-4613-a65d-49673d7cb3df",
+    "PersistedFaceIds":[
+      "7703376e-2a65-48d0-9fbd-8d5c94113d97"
+    ],
+    "Name":"Pauline Wilson",
+    "UserData":"pauline.wilson@harcourts.co.nz"
+  },
+  {
+    "PersonId":"b5540615-4ff2-4208-8dd3-76649213c0d3",
+    "PersistedFaceIds":[
+      "a249e68f-7fbd-4db0-953b-3a0449330789"
+    ],
+    "Name":"Tony Cook",
+    "UserData":"tony.cook@harcourts.co.nz"
+  },
+  {
+    "PersonId":"b6ea7227-2470-492d-8818-ee1a8b6da21a",
+    "PersistedFaceIds":[
+      "de12ddab-6755-4039-bb7c-99b406afaf3a"
+    ],
+    "Name":"Susan Lei",
+    "UserData":"susan.lei@harcourts.co.nz"
+  },
+  {
+    "PersonId":"b9865b61-f3b3-4e74-a0ae-04cd5bb22ffe",
+    "PersistedFaceIds":[
+      "ea5c17fb-c98e-45b6-a485-7bd6c9d2132a"
+    ],
+    "Name":"Angela Pye",
+    "UserData":"alison.aitken@harcourts.co.nz"
+  },
+  {
+    "PersonId":"b9be238a-eb15-4371-b0a5-c482e5580efa",
+    "PersistedFaceIds":[
+      "a0604d90-599d-4cb2-b1e0-5d0d571e2523"
+    ],
+    "Name":"Hayley Nelson",
+    "UserData":"admin.commercial@naiharcourts.co.nz"
+  },
+  {
+    "PersonId":"ba20fb8f-986a-4e94-b5b9-fe42d4350604",
+    "PersistedFaceIds":[
+      "b4354450-1cce-482b-a697-e4ece528b702"
+    ],
+    "Name":"Tim Harris",
+    "UserData":"tim.harris@harcourts.co.nz"
+  },
+  {
+    "PersonId":"ba5d879c-1836-4b80-aaba-159785cb3cf8",
+    "PersistedFaceIds":[
+      "2fa98f71-7535-4b36-95e1-399f937a22a5"
+    ],
+    "Name":"Claire Savage",
+    "UserData":"claire.savage@harcourts.co.nz"
+  },
+  {
+    "PersonId":"bafac88c-0913-4095-95e8-05d60d5408cf",
+    "PersistedFaceIds":[
+      "e5f342c5-c862-4dd3-ba35-36b99d6c9841"
+    ],
+    "Name":"Giles Simons",
+    "UserData":"giles.simons@harcourts.co.nz"
+  },
+  {
+    "PersonId":"bd59f524-c56b-4a53-a77c-91b962230f46",
+    "PersistedFaceIds":[
+      "ace85560-e88e-4bd5-afd5-ce0a20f8492d"
+    ],
+    "Name":"Teresa Abraas",
+    "UserData":"teresa@assetmanagers.co.nz"
+  },
+  {
+    "PersonId":"c90d4ed2-3d68-4277-8b2b-9e41b5284d2c",
+    "PersistedFaceIds":[
+      "d90c0ad7-ec92-474b-adff-4fb1c786157e"
+    ],
+    "Name":"Chelsea Gurr",
+    "UserData":"chelseagurr@hotmail.com"
+  },
+  {
+    "PersonId":"d465c6ce-cfd2-4489-9d42-7d8e645d672e",
+    "PersistedFaceIds":[
+      "1d722d6b-7a5b-4ae2-92ff-43c56bb44a99"
+    ],
+    "Name":"Louise Sutherland",
+    "UserData":"louise.sutherland@naiharcourts.co.nz"
+  },
+  {
+    "PersonId":"da6e296f-cad0-4963-8b45-d85fb57e706a",
+    "PersistedFaceIds":[
+      "70cbabcb-58c4-4528-ae15-0afc7f6092db"
+    ],
+    "Name":"Michelle Corkindale",
+    "UserData":"michelle.corkindale@harcourts.co.nz"
+  },
+  {
+    "PersonId":"dd9a4765-a9f3-40a3-b911-8c6fdbe4d293",
+    "PersistedFaceIds":[
+      "0967f40a-f96b-48a3-99fb-28c1f033030f"
+    ],
+    "Name":"Sarah McLeod AREINZ",
+    "UserData":"sarah.mcleod@harcourts.co.nz"
+  },
+  {
+    "PersonId":"dea12893-0a41-43bd-83af-ca57a26f2726",
+    "PersistedFaceIds":[
+      "da553da6-6652-4943-8654-29676e32c8c6"
+    ],
+    "Name":"Jonny Nicholls",
+    "UserData":"jonny.nicholls@harcourts.co.nz"
+  },
+  {
+    "PersonId":"e1e5b507-1f23-472f-8cb1-8ad2a9a28fb3",
+    "PersistedFaceIds":[
+      "ecabca83-990c-4b3d-b709-7d0c037fb2c8"
+    ],
+    "Name":"Gwyneth Carlaw",
+    "UserData":"gwyneth.carlaw@harcourts.co.nz"
+  },
+  {
+    "PersonId":"e3dd385b-01f3-4bb5-b695-da369c314172",
+    "PersistedFaceIds":[
+      "7e0298c0-be91-4bd1-9db2-8b6a44a46989"
+    ],
+    "Name":"Hannah Monk",
+    "UserData":"hannah@assetmanagers.co.nz"
+  },
+  {
+    "PersonId":"e5c15037-d404-4019-a1f7-fd6eb250d4f6",
+    "PersistedFaceIds":[
+      "9308f006-f19d-498b-a2f0-465ed6431f0f"
+    ],
+    "Name":"Tim Sprott",
+    "UserData":"tim.sprott@harcourts.co.nz"
+  },
+  {
+    "PersonId":"eb4d4d2b-07c4-4d02-bec2-41dbf520a3bd",
+    "PersistedFaceIds":[
+      "871977b2-cf78-4cf0-952c-5f2032966248"
+    ],
+    "Name":"Ashlee Warman",
+    "UserData":"enquiries.avonhead@harcourts.co.nz"
+  },
+  {
+    "PersonId":"ebf487a5-82e2-4f31-b39f-0fa68892b1d4",
+    "PersistedFaceIds":[
+      "a5e71fb6-49b8-46c0-b8f3-2c0a9044886e"
+    ],
+    "Name":"Cedric King AREINZ",
+    "UserData":"cedric.king@harcourts.co.nz"
+  },
+  {
+    "PersonId":"ee40843f-2e33-464b-b1db-40e3ea7ccc20",
+    "PersistedFaceIds":[
+      "30ed979d-32bd-4d22-b1de-e7bfed6c8d21"
+    ],
+    "Name":"Amye Silvester",
+    "UserData":"amye@assetmanagers.co.nz"
+  },
+  {
+    "PersonId":"ee85bd9f-c038-49b6-8172-298758f0af5b",
+    "PersistedFaceIds":[
+      "8d3ee620-1e8d-4e3d-8307-0bc4181cb293"
+    ],
+    "Name":"Rachel Turner",
+    "UserData":"rachel.turner@harcourts.co.nz"
+  },
+  {
+    "PersonId":"ef8838be-a6a4-4a32-a743-4c9d07d483cf",
+    "PersistedFaceIds":[
+      "efb554cd-44bd-4a82-b79b-bb2a816cdf13"
+    ],
+    "Name":"Michael Limmer",
+    "UserData":"michael.limmer@harcourts.co.nz"
+  },
+  {
+    "PersonId":"f183fe8c-c17d-47d7-ba30-188f8cdd11cd",
+    "PersistedFaceIds":[
+      "7b092d7e-245a-44ee-8150-986399fb4148"
+    ],
+    "Name":"Prakaiwan Keeratiadisai",
+    "UserData":"p.keeratiadisai@harcourts.co.nz"
+  },
+  {
+    "PersonId":"f1e27534-7f79-4071-8102-6b0f656af8b4",
+    "PersistedFaceIds":[
+      "51d6ec94-7e66-4714-af0d-565bd087fda7"
+    ],
+    "Name":"Janice Ji",
+    "UserData":"janice.ji@harcourts.co.nz"
+  },
+  {
+    "PersonId":"f38ca42b-549a-4099-b076-4b2c7f7044a7",
+    "PersistedFaceIds":[
+      "d1f312fc-35b5-475c-9f8d-42dbfd3b8b80"
+    ],
+    "Name":"Laurena Cordero-Martini",
+    "UserData":"laurena.cordero-martini@harcourts.co.nz"
+  },
+  {
+    "PersonId":"f4058a95-8de8-439f-b09b-1ec9d6d46b50",
+    "PersistedFaceIds":[
+      "11fda810-33df-44a0-9092-78ab71778f1b"
+    ],
+    "Name":"Karen Phillips AREINZ, Dip BusStud",
+    "UserData":"karen.phillips@harcourts.co.nz"
+  },
+  {
+    "PersonId":"f56fbd11-9d67-4c47-8a96-91bc4b29ed4d",
+    "PersistedFaceIds":[
+      "2de0d48b-06e3-4e0c-9ff3-357e3c29ce0c"
+    ],
+    "Name":"Vickie Buckley",
+    "UserData":"vickie.buckley@naiharcourts.co.nz"
+  },
+  {
+    "PersonId":"f576b3e0-f5de-4e86-a0ef-ccf430a46dc6",
+    "PersistedFaceIds":[
+      "7d05dabc-ed01-4d94-b306-2d9c49ffe37d"
+    ],
+    "Name":"Adrien Lefebvre",
+    "UserData":"adrien.lefebvre@naiharcourts.co.nz"
+  },
+  {
+    "PersonId":"f6449138-5c0e-46c9-8516-61e92ad35c9e",
+    "PersistedFaceIds":[
+      "2e3da93f-ef35-4906-8bef-3f4a26024297"
+    ],
+    "Name":"Shelley Barry",
+    "UserData":"shelley.barry@harcourts.co.nz"
+  },
+  {
+    "PersonId":"f71151a1-8cdf-41f5-8bdb-91d3f8dd232a",
+    "PersistedFaceIds":[
+      "1c84771c-ab77-490c-bac3-20a1fa29ccb1"
+    ],
+    "Name":"Amy Jatoorapreuk",
+    "UserData":"amy.jatoorapreuk@naiharcourts.co.nz"
+  },
+  {
+    "PersonId":"f7813a9c-6f00-40e8-bcfd-26331e60beb5",
+    "PersistedFaceIds":[
+      "906610b0-61ef-4fb4-9c75-99f6c03dc1a9"
+    ],
+    "Name":"Carol Rotherham",
+    "UserData":"letting@assetmanagers.co.nz"
+  },
+  {
+    "PersonId":"fd9da7f9-d19e-4f1b-9c66-fa5e09919cca",
+    "PersistedFaceIds":[
+      "693f5ccc-8d92-4ebf-bc5e-b57bdd4f94aa"
+    ],
+    "Name":"Genevieve King",
+    "UserData":"genevieve.king@harcourts.co.nz"
+  },
+  {
+    "PersonId":"fe118a82-5008-477c-a265-5601045471e6",
+    "PersistedFaceIds":[
+      "27fe53ab-c383-4fb9-b129-697154f86706"
+    ],
+    "Name":"Libby McCormack",
+    "UserData":"libby.mccormack@harcourts.co.nz"
+  }
+]

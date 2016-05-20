@@ -1,0 +1,632 @@
+﻿[
+  {
+    "personName":"Robert McCormack AREINZ FNZIM, Hall of Fame",
+    "position":"CEO at Grenadier Real Estate Ltd",
+    "emailAddress":"robt.mccormack@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/010/610/407-Robert-McCormack-AREINZ-FNZIM-Hall-of-Fame.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Robert-McCormack-AREINZ-FNZIM-Hall-of-Fame/27948"
+  },
+  {
+    "personName":"Andy Freeman AREINZ Nat.Dip.R.E",
+    "position":"Managing Director, Principal Officer at Grenadier Real Estate Ltd",
+    "emailAddress":"andy.freeman@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/010/610/198-Andy-Freeman-AREINZ-NatDipRE.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Andy-Freeman-AREINZ-NatDipRE/28459"
+  },
+  {
+    "personName":"Bryan Bloomfield",
+    "position":"Chief Operations Officer at Grenadier Real Estate Ltd",
+    "emailAddress":"bryan.bloomfield@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/010/609/043-Bryan-Bloomfield.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Bryan-Bloomfield/27951"
+  },
+  {
+    "personName":"Cedric King AREINZ",
+    "position":"Branch Manager at Harcourts Grenadier City Office",
+    "emailAddress":"cedric.king@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/010/616/648-Cedric-King-AREINZ.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Cedric-King-AREINZ/20655"
+  },
+  {
+    "personName":"Karen Phillips AREINZ, Dip BusStud",
+    "position":"Operations/Sales Manager at Harcourts Grenadier City",
+    "emailAddress":"karen.phillips@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/322/645-Karen-Phillips-AREINZ-Dip-BusStud.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Karen-Phillips-AREINZ-Dip-BusStud/25349"
+  },
+  {
+    "personName":"Sarah McLeod AREINZ",
+    "position":"Sales Manager at Harcourts Grenadier City Office",
+    "emailAddress":"sarah.mcleod@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/313/200-Sarah-Watson-AREINZ.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Sarah-McLeod-AREINZ/21946"
+  },
+  {
+    "personName":"Nigel Bowden AREINZ, BCom, BA",
+    "position":"Franchise Owner/Business Manager at Grenadier Accommodation Centre Ltd",
+    "emailAddress":"nigel@assetmanagers.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/829/986-Nigel-Bowden-AREINZ-BCom-BA.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Nigel-Bowden-AREINZ-BCom-BA/15572"
+  },
+  {
+    "personName":"Roger Dawson AREINZ",
+    "position":"Auctioneer at Grenadier Real Estate Ltd",
+    "emailAddress":"roger.dawson@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/010/616/714-Roger-Dawson-AREINZ.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Roger-Dawson-AREINZ/16196"
+  },
+  {
+    "personName":"Ned Allison",
+    "position":"Auctioneer at Grenadier Real Estate Ltd",
+    "emailAddress":"ned.allison@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/581/200-Ned-Allison.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Ned-Allison/26927"
+  },
+  {
+    "personName":"Adrien Lefebvre",
+    "position":"Business Broker",
+    "emailAddress":"adrien.lefebvre@naiharcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/551/261-Adrien-Lefebvre.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Adrien-Lefebvre/29947"
+  },
+  {
+    "personName":"Adrienne Shaw",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"adrienne.shaw@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/252/554-Adrienne-Shaw.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Adrienne-Shaw/24524"
+  },
+  {
+    "personName":"Amy Jatoorapreuk",
+    "position":"Business Broker",
+    "emailAddress":"amy.jatoorapreuk@naiharcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/333/872-Amy-Jatoorapreuk.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Amy-Jatoorapreuk/30508"
+  },
+  {
+    "personName":"Ann Parker",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"ann.parker@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/009/820/410-Ann-Parker.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Ann-Parker/28644"
+  },
+  {
+    "personName":"Annette Warner",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"annette.warner@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/068/741/195-Annette-Warner.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Annette-Warner/27719"
+  },
+  {
+    "personName":"Carol Williams",
+    "position":"Sales Consultant",
+    "emailAddress":"carol.davidw@gmail.com",
+    "photo":"http://photos.harcourts.co.nz/026/298/155-Carol-Duckmanton.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Carol-Williams/15627"
+  },
+  {
+    "personName":"Christopher Graham",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"christopher.graham@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/025/386/098-Christopher-Graham.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Christopher-Graham/15659"
+  },
+  {
+    "personName":"Claire Savage",
+    "position":"Licensed Sales Consultant with Simon Rowland-Jones",
+    "emailAddress":"claire.savage@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/007/255/112-Claire-Savage.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Claire-Savage/18313"
+  },
+  {
+    "personName":"Claudia Cockram",
+    "position":"Licenced Sales Consultant with Alison Aitken",
+    "emailAddress":"claudia.cockram@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/253/613-Claudia-Cockram.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Claudia-Cockram/29762"
+  },
+  {
+    "personName":"David Kang",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"david.kang@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/253/734-David-Kang.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/David-Kang/22723"
+  },
+  {
+    "personName":"Emma Stevenson",
+    "position":"Licences Sales Consultant",
+    "emailAddress":"emma.stevenson@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/008/341/777-Emma-Stevenson.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Emma-Stevenson/29757"
+  },
+  {
+    "personName":"Garrick Cummins",
+    "position":"Licenced Sales Consultant",
+    "emailAddress":"garrick.cummins@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/597/877-Garrick-Cummins.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Garrick-Cummins/29914"
+  },
+  {
+    "personName":"Gary Jamieson",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"gary.jamieson@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/005/969/925-Gary-Jamieson.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Gary-Jamieson/14365"
+  },
+  {
+    "personName":"Geoff Smith AREINZ",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"geoffbsmith@xtra.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/312/366-Geoff-Smith-AREINZ.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Geoff-Smith-AREINZ/21481"
+  },
+  {
+    "personName":"Giles Simons",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"giles.simons@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/773/350-Giles-Simons.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Giles-Simons/13239"
+  },
+  {
+    "personName":"Gwyneth Carlaw",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"gwyneth.carlaw@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/277/097-Gwyneth-Carlaw.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Gwyneth-Carlaw/20883"
+  },
+  {
+    "personName":"Hadley Weir",
+    "position":"Sales Consultant",
+    "emailAddress":"hadley.weir@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/010/969/336-Hadley-Weir.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Hadley-Weir/30313"
+  },
+  {
+    "personName":"Ian Familton",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"ian.familton@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/005/523/643-Ian-Familton.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Ian-Familton/28637"
+  },
+  {
+    "personName":"Jacqui Rose",
+    "position":"Licenced Sales Consultant",
+    "emailAddress":"jacqui.rose@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/241/051-Jacqui-Rose.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Jacqui-Rose/30187"
+  },
+  {
+    "personName":"Janice Ji",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"janice.ji@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/597/944-Janice-Ji.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Janice-Ji/29153"
+  },
+  {
+    "personName":"Jasmine Gough",
+    "position":"Licensed Sales Consultant with Russell Lange",
+    "emailAddress":"jasmine.lange@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/600/211-Jasmine-Gough.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Jasmine-Gough/29365"
+  },
+  {
+    "personName":"Jeremy Sim",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"jeremy.sim@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/600/323-Jeremy-Sim.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Jeremy-Sim/28740"
+  },
+  {
+    "personName":"Jonny Nicholls",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"jonny.nicholls@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/320/897-Jonny-Nicholls.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Jonny-Nicholls/28559"
+  },
+  {
+    "personName":"Judith Haslam",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"judith.haslam@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/011/616/097-Judith-Haslam.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Judith-Haslam/24156"
+  },
+  {
+    "personName":"Julie Albengrin",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"julie.albengrin@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/706/946-Julie-Albengrin.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Julie-Albengrin/29737"
+  },
+  {
+    "personName":"Karen Eastwood",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"karen.eastwood@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/034/217/930-Karen-Eastwood.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Karen-Eastwood/26905"
+  },
+  {
+    "personName":"Katrina Leger",
+    "position":"Licensed Sales Consultant and PA to Alison Carter",
+    "emailAddress":"katrina.leger@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/251/193-Katrina-Leger.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Katrina-Leger/27273"
+  },
+  {
+    "personName":"Kelly Gottermeyer",
+    "position":"Licensed Sales Consultant and PA to Louise McLeavey",
+    "emailAddress":"louise.mcleavey@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/068/760/172-Kelly-Gottermeyer.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Kelly-Gottermeyer/28782"
+  },
+  {
+    "personName":"Kyle Pitman",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"kyle.pitman@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/010/928/410-Kyle-Katrina-Pitman.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Kyle-Pitman/30348"
+  },
+  {
+    "personName":"Laurena Cordero-Martini",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"laurena.cordero-martini@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/254/711-Laurena-Cordero-Martini.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Laurena-Cordero-Martini/29052"
+  },
+  {
+    "personName":"Len Carragher",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"leonard.carragher@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/312/473-Len-Carragher.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Len-Carragher/23384"
+  },
+  {
+    "personName":"Marilyn McVicar",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"marilyn.mcvicar@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/025/408/737-Marilyn-McVicar.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Marilyn-McVicar/16084"
+  },
+  {
+    "personName":"Matt Dawson",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"matt.dawson@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/029/548-Matt-Dawson.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Matt-Dawson/30630"
+  },
+  {
+    "personName":"Matthew Loose",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"matthew.loose@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/312/598-Matthew-Loose.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Matthew-Loose/19835"
+  },
+  {
+    "personName":"Max Kozin",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"max.kozin@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/600/421-Max-Kozin.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Max-Kozin/29438"
+  },
+  {
+    "personName":"Megan Pettigrew",
+    "position":"Licensed Sales Consultant with Debbie Pettigrew",
+    "emailAddress":"megan.pettigrew@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/683/304-Megan-Pettigrew.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Megan-Pettigrew/29818"
+  },
+  {
+    "personName":"Michael Limmer",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"michael.limmer@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/454/096-Michael-Limmer.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Michael-Limmer/26464"
+  },
+  {
+    "personName":"Michael Mertz",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"michael.mertz@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/731/830-Michael-Mertz.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Michael-Mertz/26506"
+  },
+  {
+    "personName":"Michelle Corkindale",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"michelle.corkindale@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/267/022-Michelle-Corkindale.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Michelle-Corkindale/13211"
+  },
+  {
+    "personName":"Miranda Findlay",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"miranda.jono@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/600/467-Miranda-Findlay.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Miranda-Findlay/29845"
+  },
+  {
+    "personName":"Nancy Wang",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"nancy.wang@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/692/312-Nancy-Wang.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Nancy-Wang/29824"
+  },
+  {
+    "personName":"Natasha Sanderson",
+    "position":"Licensed Sales Consultant &amp; PA to Debbie Johnson",
+    "emailAddress":"natasha.sanderson@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/013/543/489-Natasha-Sanderson.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Natasha-Sanderson/30296"
+  },
+  {
+    "personName":"Pauline Wilson",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"pauline.wilson@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/256/188-Pauline-Wilson.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Pauline-Wilson/21381"
+  },
+  {
+    "personName":"Peter Rookes AREINZ",
+    "position":"Licensed Sales Consultants",
+    "emailAddress":"peter.rookes@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/027/372/353-Peter-Rookes.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Peter-Rookes-AREINZ/26527"
+  },
+  {
+    "personName":"Phillip Young",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"phillip.young@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/009/896/690-Phillip-Young.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Phillip-Young/29549"
+  },
+  {
+    "personName":"Susan Lei",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"susan.lei@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/256/356-Susan-Lei.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Susan-Lei/27964"
+  },
+  {
+    "personName":"Tim Harris",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"tim.harris@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/322/217-Tim-Harris.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Tim-Harris/17990"
+  },
+  {
+    "personName":"Tim Sprott",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"tim.sprott@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/009/586/799-Tim-Sprott.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Tim-Sprott/22639"
+  },
+  {
+    "personName":"Tony Cook",
+    "position":"Licensed Sales Consultant",
+    "emailAddress":"tony.cook@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/313/266-Tony-Cook.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Tony-Cook/25708"
+  },
+  {
+    "personName":"Tracy Chen",
+    "position":"Business Broker",
+    "emailAddress":"tracy.chen@naiharcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/008/776/060-Tracy-Chen.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Tracy-Chen/30210"
+  },
+  {
+    "personName":"John Siebert",
+    "position":"Property Manager",
+    "emailAddress":"john@assetmanagers.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/852/445-John-Siebert.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/John-Siebert/26022"
+  },
+  {
+    "personName":"Carol Rotherham",
+    "position":"Letting Agent",
+    "emailAddress":"letting@assetmanagers.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/889/060-Carol-Rotherham.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Carol-Rotherham/27238"
+  },
+  {
+    "personName":"Louise Sutherland",
+    "position":"Commercial Property Manager",
+    "emailAddress":"louise.sutherland@naiharcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/007/254/393-Louise-Sutherland.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Louise-Sutherland/18813"
+  },
+  {
+    "personName":"Chris Chapman",
+    "position":"Commercial Property Manager",
+    "emailAddress":"chris.chapman@naiharcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/543/926-Chris-Chapman.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Chris-Chapman/11623"
+  },
+  {
+    "personName":"Vickie Buckley",
+    "position":"Commercial Property Manager",
+    "emailAddress":"vickie.buckley@naiharcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/007/254/405-Vickie-Buckley.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Vickie-Buckley/19774"
+  },
+  {
+    "personName":"Dee Villanueva",
+    "position":"Commercial Property Management Assistant",
+    "emailAddress":"pmassistchch@naiharcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/007/254/418-Dee-Villanueva.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Dee-Villanueva/28671"
+  },
+  {
+    "personName":"Alethea Lock",
+    "position":"Receptionist/Administrator",
+    "emailAddress":"enquiries@assetmanagers.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/010/713/795-Alethea-Lock.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Alethea-Lock/30401"
+  },
+  {
+    "personName":"Amanda Bowden",
+    "position":"Personal Assistant to Rhonda Tapp",
+    "emailAddress":"rhonda.tapp@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/369/772-Amanda-Bowden.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Amanda-Bowden/30651"
+  },
+  {
+    "personName":"Amye Silvester",
+    "position":"Tenancy Manager",
+    "emailAddress":"amye@assetmanagers.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/256/364-Amye-Silvester.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Amye-Silvester/29023"
+  },
+  {
+    "personName":"Chelsea Gurr",
+    "position":"Personal Assistant to Tim Sprott",
+    "emailAddress":"chelseagurr@hotmail.com",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/601/140-Chelsea-Gurr.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Chelsea-Gurr/30201"
+  },
+  {
+    "personName":"Chloe McGill",
+    "position":"Tenancy Manager",
+    "emailAddress":"chloe@assetmanagers.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/010/713/979-Chloe-McGill.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Chloe-McGill/30402"
+  },
+  {
+    "personName":"Claudia Cathcart",
+    "position":"Office Administrator",
+    "emailAddress":"admin.city@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/013/439/623-Claudia-Cathcart.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Claudia-Cathcart/30818"
+  },
+  {
+    "personName":"Diana Morgan",
+    "position":"Personal Assistant to Jan-Louise Chesmar",
+    "emailAddress":"jan-louise.chesmar@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/010/643/214-Diana-Morgan.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Diana-Morgan/30440"
+  },
+  {
+    "personName":"Teresa Abraas",
+    "position":"Tenancy Manager",
+    "emailAddress":"teresa@assetmanagers.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/010/714/055-Teresa-Abraas.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Teresa-Abraas/30404"
+  },
+  {
+    "personName":"Hayley Nelson",
+    "position":"Senior Office Admin - Business",
+    "emailAddress":"admin.commercial@naiharcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/299/541-Hayley-Nelson.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Hayley-Nelson/29874"
+  },
+  {
+    "personName":"Geri Pratt",
+    "position":"Administrator - Business",
+    "emailAddress":"reception.commercial@naiharcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/011/334/004-Geri-Pratt.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Geri-Pratt/30120"
+  },
+  {
+    "personName":"Celia Vink",
+    "position":"Personal Assistant to Jamin Marshall",
+    "emailAddress":"jamin.marshall@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/225/758-Celia-Vink.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Celia-Vink/28467"
+  },
+  {
+    "personName":"Genevieve King",
+    "position":"Executive Administrator &amp; National Co-Ordinator -",
+    "emailAddress":"genevieve.king@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/225/878-Genevieve-King.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Genevieve-King/27977"
+  },
+  {
+    "personName":"Ashlee Warman",
+    "position":"Office Administrator",
+    "emailAddress":"enquiries.avonhead@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/313/538-Ashlee-Warman.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Ashlee-Warman/29298"
+  },
+  {
+    "personName":"Ruth McEvoy",
+    "position":"Office Administrator",
+    "emailAddress":"admin.avonhead@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/354/089-Ruth-McEvoy.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Ruth-McEvoy/28475"
+  },
+  {
+    "personName":"Shelley Barry",
+    "position":"Admin Team Leader - National Co-ordinator &#8211; Mortga",
+    "emailAddress":"shelley.barry@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/225/936-Shelley-Barry.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Shelley-Barry/25315"
+  },
+  {
+    "personName":"James Bastin",
+    "position":"Desktop Publisher",
+    "emailAddress":"james.bastin@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/012/757/252-James-Bastin.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/James-Bastin/28310"
+  },
+  {
+    "personName":"Hannah Monk",
+    "position":"PA to Business Development Team",
+    "emailAddress":"hannah@assetmanagers.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/005/643/315-Hannah-Monk.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Hannah-Monk/29476"
+  },
+  {
+    "personName":"Rachel Turner",
+    "position":"EA to CEO and Managing Director",
+    "emailAddress":"rachel.turner@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/337/364-Rachel-Turner.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Rachel-Turner/11519"
+  },
+  {
+    "personName":"Charlotte Hemens",
+    "position":"Auction Coordinator/Office Administrator",
+    "emailAddress":"charlotte.hemens@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/225/458-Charlotte-Hemens.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Charlotte-Hemens/29544"
+  },
+  {
+    "personName":"Prakaiwan Keeratiadisai",
+    "position":"Accountant",
+    "emailAddress":"p.keeratiadisai@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/228/395-Prakaiwan-Keeratiadisai.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Prakaiwan-Keeratiadisai/29816"
+  },
+  {
+    "personName":"Libby McCormack",
+    "position":"Finance Assistant",
+    "emailAddress":"libby.mccormack@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/226/210-Libby-McCormack.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Libby-McCormack/29814"
+  },
+  {
+    "personName":"Carol Smith",
+    "position":"Finance Assistant",
+    "emailAddress":"carol.smith@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/225/615-Carol-Smith.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Carol-Smith/29813"
+  },
+  {
+    "personName":"Selena Gemmell",
+    "position":"Finance Assistant",
+    "emailAddress":"selena.gemmell@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/226/369-Selena-Gemmell.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Selena-Gemmell/29815"
+  },
+  {
+    "personName":"Angela Pye",
+    "position":"Personal Assistant to Alison Aitken",
+    "emailAddress":"alison.aitken@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/274/906-Angela-Pye.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Angela-Pye/25841"
+  },
+  {
+    "personName":"Ashlee Warman",
+    "position":"Office Administrator",
+    "emailAddress":"enquiries.akaroa@harcourts.co.nz",
+    "photo":"http://photos.harcourts.co.nz/V2/000/006/313/690-Ashlee-Warman.jpg",
+    "profile":"http://grenadier.harcourts.co.nz/Profile/Ashlee-Warman/29315"
+  }
+]
