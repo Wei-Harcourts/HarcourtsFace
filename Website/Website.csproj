@@ -105,11 +105,12 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="package.json" />
-    <None Include="StaticResources\js\jquery-2.2.3.intellisense.js" />
+    <None Include="Scripts\jquery-2.2.3.intellisense.js" />
+    <Content Include="Scripts\jquery-2.2.3.js" />
+    <Content Include="Scripts\jquery-2.2.3.min.js" />
+    <Content Include="Scripts\jquery-2.2.3.min.map" />
     <Content Include="Gruntfile.js" />
     <Content Include="StaticResources\css\site.css" />
-    <Content Include="StaticResources\js\jquery-2.2.3.js" />
-    <Content Include="StaticResources\js\jquery-2.2.3.min.js" />
     <Content Include="StaticResources\plupload-2.1.9\js\i18n\ar.js" />
     <Content Include="StaticResources\plupload-2.1.9\js\i18n\az.js" />
     <Content Include="StaticResources\plupload-2.1.9\js\i18n\bg.js" />
@@ -198,7 +199,6 @@
     <Content Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="StaticResources\plupload-2.1.9\readme.md" />
-    <Content Include="StaticResources\js\jquery-2.2.3.min.map" />
     <Content Include="StaticResources\css\site.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -210,6 +210,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="StaticResources\js\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Recognition.ProjectOxford\Recognition.ProjectOxford.csproj">

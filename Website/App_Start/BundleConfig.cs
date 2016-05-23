@@ -12,7 +12,9 @@ namespace Harcourts.Face.Website
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/staticcontents/js").Include(
-                "~/StaticResources/js/jquery-{version}.js",
+                // JQuery
+                "~/Scripts/jquery-{version}.js",
+                // Plupload
                 "~/StaticResources/plupload-2.1.9/js/moxie.min.js",
                 "~/StaticResources/plupload-2.1.9/js/plupload.min.js"
                 ));
