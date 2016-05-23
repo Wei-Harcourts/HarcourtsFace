@@ -40,7 +40,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -57,6 +65,10 @@
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -80,6 +92,10 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Web.Infrastructure">
@@ -88,9 +104,88 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="package.json" />
+    <None Include="StaticResources\js\jquery-2.2.3.intellisense.js" />
+    <Content Include="Gruntfile.js" />
+    <Content Include="StaticResources\css\site.css" />
+    <Content Include="StaticResources\js\jquery-2.2.3.js" />
+    <Content Include="StaticResources\js\jquery-2.2.3.min.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\ar.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\az.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\bg.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\bs.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\ca.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\cs.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\cy.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\da.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\de.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\el.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\en.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\es.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\et.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\fa.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\fi.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\fr.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\he.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\hr.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\hu.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\hy.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\id.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\it.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\ja.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\ka.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\kk.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\km.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\ko.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\ku_IQ.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\lt.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\lv.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\ms.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\nl.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\pl.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\pt.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\pt_BR.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\ro.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\ru.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\sk.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\sl.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\sq.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\sr.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\sv.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\th_TH.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\tr.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\uk_UA.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\vi.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\zh_CN.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\i18n\zh_TW.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.plupload.queue\css\jquery.plupload.queue.css" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.plupload.queue\img\backgrounds.gif" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.plupload.queue\img\buttons-disabled.png" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.plupload.queue\img\buttons.png" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.plupload.queue\img\delete.gif" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.plupload.queue\img\done.gif" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.plupload.queue\img\error.gif" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.plupload.queue\img\throbber.gif" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.plupload.queue\img\transp50.png" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.plupload.queue\jquery.plupload.queue.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.plupload.queue\jquery.plupload.queue.min.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.ui.plupload\css\jquery.ui.plupload.css" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.ui.plupload\img\loading.gif" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.ui.plupload\img\plupload.png" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.ui.plupload\jquery.ui.plupload.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\jquery.ui.plupload\jquery.ui.plupload.min.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\moxie.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\moxie.min.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\Moxie.swf" />
+    <Content Include="StaticResources\plupload-2.1.9\js\Moxie.xap" />
+    <Content Include="StaticResources\plupload-2.1.9\js\plupload.dev.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\plupload.full.min.js" />
+    <Content Include="StaticResources\plupload-2.1.9\js\plupload.min.js" />
+    <Content Include="StaticResources\plupload-2.1.9\license.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -102,6 +197,9 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="StaticResources\plupload-2.1.9\readme.md" />
+    <Content Include="StaticResources\js\jquery-2.2.3.min.map" />
+    <Content Include="StaticResources\css\site.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
