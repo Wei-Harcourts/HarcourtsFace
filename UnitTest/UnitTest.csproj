@@ -45,16 +45,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RecognitionTests.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Recognition.Betaface\Recognition.Betaface.csproj">
-      <Project>{4f2bab79-a185-4cde-a93b-ee3be015b355}</Project>
-      <Name>Recognition.Betaface</Name>
-    </ProjectReference>
+    <Compile Include="JsonPersonLookupTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebsiteCommon\WebsiteCommon.csproj">
+      <Project>{7809bc15-2f21-4979-95be-61fed6f0cb21}</Project>
+      <Name>WebsiteCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebsiteService\WebsiteService.csproj">
+      <Project>{5bd5218b-96c0-45c4-ad37-5d72715b1840}</Project>
+      <Name>WebsiteService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Website\Website.csproj">
+      <Project>{216118b1-fafd-403b-8831-102d59481290}</Project>
+      <Name>Website</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

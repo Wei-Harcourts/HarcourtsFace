@@ -37,11 +37,13 @@ namespace Harcourts.Face.Website.Controllers
             {
                 //var service = new FaceService();
                 //var keys = await service.Identify(imageStream);
+
                 var keys = new[]
                            {
-                               new PersonLookupKey<Guid>(new Guid("6225b3c2-1ea0-4545-8239-05bc4aef0148")),
-                               new PersonLookupKey<Guid>(new Guid("ebf487a5-82e2-4f31-b39f-0fa68892b1d4"))
+                               new PersonLookupKey<Guid>(new Guid("cc406105-8c66-4ebc-a77a-6536db4c9a9c")),
+                               new PersonLookupKey<Guid>(new Guid("4843b5f5-b09d-4e77-b9ae-fa65fb874651"))
                            };
+
                 var personLookup = new JsonPersonLookup();
                 var persons = keys.SelectMany(key => personLookup.Find(key))
                     .OrderBy(p => p.FullName)

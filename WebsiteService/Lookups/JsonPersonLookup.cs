@@ -62,7 +62,7 @@ namespace Harcourts.Face.WebsiteService.Lookups
         private static IReadOnlyDictionary<string, dynamic> ReadScrawlResults()
         {
             var dictionary = ReadJsonDataFile("scrawlResult.json")
-                .ToDictionary(x => (string) x.emailAddress)
+                .ToDictionary(x => (string) x.personName + "|" + (string) x.emailAddress)
                 .AsReadOnly()
                 ;
             return dictionary;
@@ -96,7 +96,10 @@ namespace Harcourts.Face.WebsiteService.Lookups
 
             var pocoMapper = new ScrawlResultPersonMapper();
             var projectionLookup = scrawlResults.Values
-                .Join(existingPersons.Values, r => r.emailAddress, p => p.userData,
+                .Join(
+                    existingPersons.Values,
+                    r => ((string) r.personName + "|" + (string) r.emailAddress),
+                    p => ((string) p.userData),
                     (r, p) => new {r, p})
                 .ToLookup(
                     x => new Guid((string) x.p.personId),

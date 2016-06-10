@@ -73,5 +73,13 @@ namespace Harcourts.Face.WebsiteCommon.Models
         {
             get { return new Uri(_profileUriString, UriKind.Absolute); }
         }
+
+        /// <summary>
+        /// Returns the person name.
+        /// </summary>
+        public override string ToString()
+        {
+            return FullName;
+        }
     }
 }

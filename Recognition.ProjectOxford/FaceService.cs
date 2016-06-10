@@ -33,7 +33,7 @@ namespace Harcourts.Face.Recognition.ProjectOxford
         /// <summary>
         /// The bottom line of acceptable confidence level.
         /// </summary>
-        public static double ConfidenceBottomLine = 0.5d;
+        public static double ConfidenceBottomLine = 0.51d;
 
         static FaceService()
         {
@@ -57,8 +57,11 @@ namespace Harcourts.Face.Recognition.ProjectOxford
 
                 // Get all the candidates with confidence greater than the bottom line.
                 var goodResults =
+                    // We only get the API to return 1 candidate for 1 face.
+                    // Otherwise, we will consider more about how to flatten the candidates.
                     identifyResults.SelectMany(r => r.Candidates)
                         .GroupBy(c => c.PersonId)
+                        // Distinct on PersondId so that we won't return 1 person twice or more.
                         .Select(g => g.First())
                         .Where(c => c.Confidence >= ConfidenceBottomLine)
                         .Select(c => new PersonLookupKey<Guid>(c.PersonId))
