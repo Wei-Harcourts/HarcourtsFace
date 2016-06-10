@@ -40,10 +40,11 @@ namespace Harcourts.Face.Recognition.ProjectOxford.UnitTest
                     var counter = 0;
                     foreach (var person in scrawledPersons)
                     {
-                        if (!existingPersons.ContainsKey(person.emailAddress))
+                        var key = person.personName + "|" + person.emailAddress;
+                        if (!existingPersons.ContainsKey(key))
                         {
-                            var created = await client.CreatePersonAsync("faces-harcourts-co-nz", person.personName,
-                                person.emailAddress);
+                            var created = await client.CreatePersonAsync(
+                                "faces-harcourts-co-nz", person.personName, key);
                             client.AddPersonFaceAsync("faces-harcourts-co-nz", created.PersonId, person.photo, person.photo);
                             counter += 2;
                         }
@@ -150,6 +151,23 @@ namespace Harcourts.Face.Recognition.ProjectOxford.UnitTest
                 {
                     var personId = new Guid("7c73585d-983d-4f1f-84bb-c92fcc12f300");
                     await client.DeletePersonAsync("faces-harcourts-co-nz", personId);
+                }
+                catch (Exception ex)
+                {
+                    ex.Dump();
+                    throw;
+                }
+            }
+        }
+
+        [Test, Explicit]
+        public async Task DeleteNzPersonGroup()
+        {
+            using (var client = CreateFaceServiceClient())
+            {
+                try
+                {
+                    await client.DeletePersonGroupAsync("faces-harcourts-co-nz");
                 }
                 catch (Exception ex)
                 {

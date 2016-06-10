@@ -9,7 +9,7 @@ using System.Text.RegularExpressions;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
-using Harcourts.Face.Website.Models;
+using Harcourts.Face.WebsiteCommon.Models;
 
 namespace Harcourts.Face.WebsiteCommon.Authorization.Http
 {
@@ -34,8 +34,7 @@ namespace Harcourts.Face.WebsiteCommon.Authorization.Http
                 HttpStatusCode.Unauthorized,
                 new ErrorModel
                 {
-                    Status = (int) HttpStatusCode.Unauthorized,
-                    StatusDescription = "The action has been sepcified to run only if referrer is trusted."
+                    Message = "The action has been sepcified to run only if referrer is trusted."
                 });
         }
 
@@ -89,19 +88,13 @@ namespace Harcourts.Face.WebsiteCommon.Authorization.Http
         {
             var list = new List<Regex>();
             var trustedReferers = ConfigurationManager.AppSettings["TrustedReferers"] ?? string.Empty;
-
-            var hosts = trustedReferers.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
-#if DEBUG
-            hosts = new[] {"localhost"}.Concat(hosts).ToArray();
-#endif
-
+            var hosts = trustedReferers.Split(new[] {','}, StringSplitOptions.RemoveEmptyEntries);
             foreach (var host in hosts)
             {
                 var pattern = Regex.Escape(host);
                 pattern = "^" + pattern.Replace("\\*", ".+").Replace("\\?", ".") + "$";
                 list.Add(new Regex(pattern, RegexOptions.IgnoreCase | RegexOptions.Singleline));
             }
-
             return list;
         }
     }

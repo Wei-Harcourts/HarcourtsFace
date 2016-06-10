@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Harcourts.Face.WebsiteCommon;
 using Harcourts.Face.WebsiteCommon.Authorization.Http;
 using Newtonsoft.Json.Serialization;
 
@@ -28,6 +29,7 @@ namespace Harcourts.Face.Website
                 );
 
             // All requests must come from trusted sources.
+            config.Filters.Add(new UniformErrorAttribute());
             config.Filters.Add(new FromTrustedRefererAttribute());
             config.Filters.Add(new System.Web.Http.AuthorizeAttribute());
 

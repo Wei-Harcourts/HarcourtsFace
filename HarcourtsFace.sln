@@ -17,9 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recognition.ProjectOxford",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recognition.ProjectOxford.UnitTest", "Recognition.ProjectOxford.UnitTest\Recognition.ProjectOxford.UnitTest.csproj", "{FCF1512A-491E-4736-BB07-52165FB35713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsiteCommon", "WebsiteCommon\WebsiteCommon.csproj", "{5BD5218B-96C0-45C4-AD37-5D72715B1840}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsiteService", "WebsiteService\WebsiteService.csproj", "{5BD5218B-96C0-45C4-AD37-5D72715B1840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsiteModel", "WebsiteModel\WebsiteModel.csproj", "{7809BC15-2F21-4979-95BE-61FED6F0CB21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsiteCommon", "WebsiteCommon\WebsiteCommon.csproj", "{7809BC15-2F21-4979-95BE-61FED6F0CB21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

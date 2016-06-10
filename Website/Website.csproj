@@ -128,6 +128,8 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="package.json" />
+    <Content Include="App_Data\existingPersons.json" />
+    <Content Include="App_Data\scrawlResult.json" />
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.3.js" />
     <Content Include="Scripts\jquery-2.2.3.min.js" />
@@ -239,21 +241,19 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Recognition.ProjectOxford\Recognition.ProjectOxford.csproj">
       <Project>{7e691e90-73f5-43db-aaad-1b4cff8ae7c1}</Project>
       <Name>Recognition.ProjectOxford</Name>
     </ProjectReference>
     <ProjectReference Include="..\WebsiteCommon\WebsiteCommon.csproj">
-      <Project>{5bd5218b-96c0-45c4-ad37-5d72715b1840}</Project>
+      <Project>{7809bc15-2f21-4979-95be-61fed6f0cb21}</Project>
       <Name>WebsiteCommon</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WebsiteModel\WebsiteModel.csproj">
-      <Project>{7809bc15-2f21-4979-95be-61fed6f0cb21}</Project>
-      <Name>WebsiteModel</Name>
+    <ProjectReference Include="..\WebsiteService\WebsiteService.csproj">
+      <Project>{5bd5218b-96c0-45c4-ad37-5d72715b1840}</Project>
+      <Name>WebsiteService</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

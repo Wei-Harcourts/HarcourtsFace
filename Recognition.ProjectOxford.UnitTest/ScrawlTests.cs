@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using HtmlAgilityPack;
 using Newtonsoft.Json;
 using NUnit.Framework;
@@ -54,22 +55,22 @@ namespace Harcourts.Face.Recognition.ProjectOxford.UnitTest
                     continue;
                 }
 
-                var personName = person.SelectSingleNode("h2[1]")?.InnerText?.Trim();
+                var personName = HttpUtility.HtmlDecode(person.SelectSingleNode("h2[1]")?.InnerText?.Trim());
                 if (string.IsNullOrWhiteSpace(personName))
                 {
                     // Ask his/her mon why that guys doesn't have a name?!
                     continue;
                 }
 
-                var email = person.SelectSingleNode("a[2][contains(@href,'mailto:')]")
+                var email = person.SelectSingleNode("a[contains(@class,'send-email')][contains(@href,'mailto:')]")
                     ?.Attributes["href"]?.Value?.Replace("mailto:", string.Empty);
-                if (string.IsNullOrWhiteSpace(email) || personWanted.ContainsKey(email))
+                if (string.IsNullOrWhiteSpace(email) || personWanted.ContainsKey(personName + "|" + email))
                 {
                     // No email or email has been added.
                     continue;
                 }
 
-                var positionName = person.SelectSingleNode("h3[1]")?.InnerText?.Trim() ?? string.Empty;
+                var positionName = HttpUtility.HtmlDecode(person.SelectSingleNode("h3[1]")?.InnerText?.Trim() ?? string.Empty);
                 var lastComma = positionName.LastIndexOf(", ", StringComparison.InvariantCultureIgnoreCase);
                 if (lastComma >= 0)
                 {
@@ -87,7 +88,7 @@ namespace Harcourts.Face.Recognition.ProjectOxford.UnitTest
                 }
 
                 personWanted.Add(
-                    email,
+                    personName + "|" + email,
                     new
                     {
                         personName = personName,
@@ -98,7 +99,7 @@ namespace Harcourts.Face.Recognition.ProjectOxford.UnitTest
                     });
             }
 
-            return personWanted.Values.ToList();
+            return personWanted.Values.OrderBy(x => x.personName).ToList();
         }
     }
 }
