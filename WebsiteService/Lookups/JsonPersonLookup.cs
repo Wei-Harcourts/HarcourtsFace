@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.IO;
 using System.Linq;
-using System.Web;
 using Harcourts.Face.WebsiteCommon.Lookups;
 using Harcourts.Face.WebsiteCommon.Models;
 using Harcourts.Face.WebsiteService.Mapping;
@@ -17,8 +16,25 @@ namespace Harcourts.Face.WebsiteService.Lookups
     /// </summary>
     public sealed class JsonPersonLookup : IPersonLookup<Guid>
     {
-        private static readonly Lazy<ILookup<Guid, Person>> PersonProjectionLookup =
-            new Lazy<ILookup<Guid, Person>>(BuildPersonLookup, true);
+        private ILookup<Guid, Person> _personProjectionLookup;
+        private readonly IJsonFileProvider _fileProvider;
+
+        /// <summary>
+        /// Initializes an instance of the lookup.
+        /// </summary>
+        public JsonPersonLookup() 
+            : this(new HttpContextJsonFileProvider())
+        {
+        }
+
+        /// <summary>
+        /// Initializes an instance of the lookup.
+        /// </summary>
+        /// <param name="fileProvider">The data file provider.</param>
+        public JsonPersonLookup(IJsonFileProvider fileProvider)
+        {
+            _fileProvider = fileProvider;
+        }
 
         /// <summary>
         /// Finds the person with the specified person ID.
@@ -37,7 +53,7 @@ namespace Harcourts.Face.WebsiteService.Lookups
                 throw new ArgumentException("Underlying key is null.");
             }
 
-            var projectionLookup = PersonProjectionLookup.Value;
+            var projectionLookup = EnsurePersonLookup();
             var projection = projectionLookup.Contains(personId.Key)
                 ? projectionLookup[personId.Key]
                 : Enumerable.Empty<Person>();
@@ -47,7 +63,7 @@ namespace Harcourts.Face.WebsiteService.Lookups
         /// <summary>
         /// Reads the JSON file and return all existing persons.
         /// </summary>
-        private static IReadOnlyDictionary<string, dynamic> ReadExistingPersons()
+        private IReadOnlyDictionary<string, dynamic> ReadExistingPersons()
         {
             var dictionary = ReadJsonDataFile("existingPersons.json")
                 .ToDictionary(x => (string) x.userData)
@@ -59,7 +75,7 @@ namespace Harcourts.Face.WebsiteService.Lookups
         /// <summary>
         /// Reads the JSON file and return all current scrawl results.
         /// </summary>
-        private static IReadOnlyDictionary<string, dynamic> ReadScrawlResults()
+        private IReadOnlyDictionary<string, dynamic> ReadScrawlResults()
         {
             var dictionary = ReadJsonDataFile("scrawlResult.json")
                 .ToDictionary(x => (string) x.personName + "|" + (string) x.emailAddress)
@@ -71,11 +87,10 @@ namespace Harcourts.Face.WebsiteService.Lookups
         /// <summary>
         /// Reads in persisted JSON file.
         /// </summary>
-        /// <param name="relativeFilePath">The file path relative to the App_Data folder.</param>
-        private static IEnumerable<dynamic> ReadJsonDataFile(string relativeFilePath)
+        /// <param name="fileName">The file name relative to the App_Data folder.</param>
+        private IEnumerable<dynamic> ReadJsonDataFile(string fileName)
         {
-            var filePath = Path.Combine(HttpContext.Current.Server.MapPath("~/App_Data"),
-                relativeFilePath.TrimStart('/'));
+            var filePath = _fileProvider.GetDataFilePath(fileName);
             var json = File.ReadAllText(filePath);
             var array = JArray.Parse(json);
             var items = array.Children<JObject>()
@@ -89,8 +104,13 @@ namespace Harcourts.Face.WebsiteService.Lookups
         /// <summary>
         /// Projects the stored data and generates a lookup for person.
         /// </summary>
-        private static ILookup<Guid, Person> BuildPersonLookup()
+        private ILookup<Guid, Person> EnsurePersonLookup()
         {
+            if (_personProjectionLookup != null)
+            {
+                return _personProjectionLookup;
+            }
+
             var scrawlResults = ReadScrawlResults();
             var existingPersons = ReadExistingPersons();
 
@@ -103,10 +123,21 @@ namespace Harcourts.Face.WebsiteService.Lookups
                     (r, p) => new {r, p})
                 .ToLookup(
                     x => new Guid((string) x.p.personId),
-                    x => new Person(pocoMapper.Map(x.r, new PersonPoco())))
+                    x => new Person(pocoMapper.Map(x.r, new PersonPoco {PersonIdentity = x.p.personId})))
                 ;
 
-            return projectionLookup;
+            _personProjectionLookup = projectionLookup;
+            return _personProjectionLookup;
+        }
+
+        /// <summary>
+        /// Returns all items as an enumerable.
+        /// </summary>
+        public IEnumerable<Person> AsEnumerable()
+        {
+            var lookup = EnsurePersonLookup();
+            var enumerable = lookup.SelectMany(x => x.AsEnumerable());
+            return enumerable;
         }
     }
 }

@@ -185,6 +185,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lookups\HttpContextJsonFileProvider.cs" />
+    <Compile Include="Lookups\IJsonFileProvider.cs" />
     <Compile Include="Lookups\JsonPersonLookup.cs" />
     <Compile Include="Mapping\ScrawlResultPersonMapper.cs" />
     <Compile Include="Models\PersonPoco.cs" />

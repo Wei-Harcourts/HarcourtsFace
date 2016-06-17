@@ -11,6 +11,7 @@ namespace Harcourts.Face.WebsiteCommon.Models
     /// </summary>
     public class Person : IPerson
     {
+        private readonly string _personIdentity;
         private readonly string _fullname;
         private readonly string _workTitleOrPosition;
         private readonly string _emailAddress;
@@ -27,11 +28,20 @@ namespace Harcourts.Face.WebsiteCommon.Models
                 throw new ArgumentNullException("person");
             }
 
+            _personIdentity = person.PersonIdentity;
             _fullname = person.FullName;
             _workTitleOrPosition = person.WorkTitleOrPosition;
             _emailAddress = person.EmailAddress;
             _photoUriString = (person.PhotoUri == null) ? null : person.PhotoUri.AbsoluteUri;
             _profileUriString = (person.ProfileUri == null) ? null : person.ProfileUri.AbsoluteUri;
+        }
+
+        /// <summary>
+        /// The identity of the person.
+        /// </summary>
+        public string PersonIdentity
+        {
+            get { return _personIdentity; }
         }
 
         /// <summary>

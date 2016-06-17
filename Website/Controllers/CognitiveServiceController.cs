@@ -37,7 +37,6 @@ namespace Harcourts.Face.Website.Controllers
             {
                 //var service = new FaceService();
                 //var keys = await service.Identify(imageStream);
-
                 var keys = new[]
                            {
                                new PersonLookupKey<Guid>(new Guid("cc406105-8c66-4ebc-a77a-6536db4c9a9c")),

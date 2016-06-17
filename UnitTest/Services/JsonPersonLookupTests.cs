@@ -1,9 +1,7 @@
-﻿using System;
-using Harcourts.Face.WebsiteCommon.Lookups;
-using Harcourts.Face.WebsiteService.Lookups;
+﻿using Harcourts.Face.WebsiteService.Lookups;
 using NUnit.Framework;
 
-namespace Harcourts.Face.UnitTest
+namespace Harcourts.Face.UnitTest.Services
 {
     [TestFixture]
     internal class JsonPersonLookupTests

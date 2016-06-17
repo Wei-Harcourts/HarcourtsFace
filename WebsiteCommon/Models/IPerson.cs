@@ -12,6 +12,11 @@ namespace Harcourts.Face.WebsiteCommon.Models
     public interface IPerson
     {
         /// <summary>
+        /// The identity of the person.
+        /// </summary>
+        string PersonIdentity { get; }
+
+        /// <summary>
         /// The full name of the person.
         /// </summary>
         string FullName { get; }

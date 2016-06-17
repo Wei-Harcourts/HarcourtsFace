@@ -9,6 +9,11 @@ namespace Harcourts.Face.WebsiteService.Models
     internal class PersonPoco : IPerson
     {
         /// <summary>
+        /// The identity of the person.
+        /// </summary>
+        public string PersonIdentity { get; set; }
+
+        /// <summary>
         /// The full name of the person.
         /// </summary>
         public string FullName { get; set; }
