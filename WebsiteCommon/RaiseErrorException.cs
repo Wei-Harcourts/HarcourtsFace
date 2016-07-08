@@ -10,8 +10,8 @@ namespace Harcourts.Face.WebsiteCommon
     {
         private readonly HttpStatusCode _status;
 
-        public RaiseErrorException(HttpStatusCode statusCode, string errorMessage)
-            : base(errorMessage)
+        public RaiseErrorException(HttpStatusCode statusCode, string errorMessage, Exception innerException = null)
+            : base(errorMessage, innerException)
         {
             _status = statusCode;
         }
@@ -23,5 +23,7 @@ namespace Harcourts.Face.WebsiteCommon
         {
             get { return _status; }
         }
+
+        public bool ShowDebugInfo { get; set; }
     }
 }

@@ -1,12 +1,11 @@
 ﻿using System;
-using Harcourts.Face.WebsiteCommon.Models;
 
-namespace Harcourts.Face.WebsiteService.Models
+namespace Harcourts.Face.WebsiteCommon.Models
 {
     /// <summary>
     /// Represents a person POCO.
     /// </summary>
-    internal class PersonPoco : IPerson
+    public class PersonPoco : IPerson
     {
         /// <summary>
         /// The identity of the person.

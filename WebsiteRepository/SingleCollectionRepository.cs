@@ -57,9 +57,9 @@ namespace Harcourts.Face.WebsiteRepository
         /// Performs action on the provided database.
         /// </summary>
         /// <param name="dbAction">The action to perform.</param>
-        public override async Task<TResult> Execute<TResult>(Func<IMongoDatabase, Task<TResult>> dbAction)
+        public override async Task<TResult> RunCommand<TResult>(Func<IMongoDatabase, Task<TResult>> dbAction)
         {
-            return await _db.Execute(dbAction);
+            return await _db.RunCommand(dbAction);
         }
 
         /// <summary>
@@ -67,7 +67,7 @@ namespace Harcourts.Face.WebsiteRepository
         /// </summary>
         /// <typeparam name="TResult">The type of the return result.</typeparam>
         /// <param name="collectionAction">The action to perform.</param>
-        public async Task<TResult> ExecuteCollection<TResult>(
+        public async Task<TResult> Execute<TResult>(
             Func<IMongoCollection<TCollection>, Task<TResult>> collectionAction)
         {
             if (collectionAction == null)

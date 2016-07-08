@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using Harcourts.Face.WebsiteCommon.Lookups;
 using Harcourts.Face.WebsiteCommon.Models;
 using Harcourts.Face.WebsiteService.Mapping;
-using Harcourts.Face.WebsiteService.Models;
 using Newtonsoft.Json.Linq;
 
 namespace Harcourts.Face.WebsiteService.Lookups
@@ -37,27 +37,33 @@ namespace Harcourts.Face.WebsiteService.Lookups
         }
 
         /// <summary>
-        /// Finds the person with the specified person ID.
+        /// Finds the persons with the specified person IDs.
         /// </summary>
-        /// <param name="personId">The ID of the person.</param>
-        public IEnumerable<Person> Find(PersonLookupKey<Guid> personId)
+        /// <param name="personIds">The IDs of the persons.</param>
+        public Task<IEnumerable<Person>> Find(IEnumerable<PersonLookupKey<Guid>> personIds)
         {
             Contract.Ensures(Contract.Result<IEnumerable<Person>>() != null);
 
-            if (personId == null)
+            if (personIds == null)
             {
                 throw new ArgumentNullException("key");
             }
-            if (personId.Key == null)
+            var personIdList = personIds.ToList();
+            if (personIdList.Any(x => x.Key == null))
             {
-                throw new ArgumentException("Underlying key is null.");
+                throw new ArgumentException("At least one underlying key of the keys is null.");
             }
 
             var projectionLookup = EnsurePersonLookup();
-            var projection = projectionLookup.Contains(personId.Key)
-                ? projectionLookup[personId.Key]
-                : Enumerable.Empty<Person>();
-            return projection;
+            var results = personIdList.Select(
+                personId => (IEnumerable<Person>)
+                    (projectionLookup.Contains(personId.Key)
+                        ? projectionLookup[personId.Key]
+                        : Enumerable.Empty<Person>()))
+                .ToList()
+                .SelectMany(x => x)
+                ;
+            return Task.FromResult(results);
         }
 
         /// <summary>

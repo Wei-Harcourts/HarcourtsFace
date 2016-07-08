@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using AutoMapper;
 using Harcourts.Face.WebsiteCommon.Mapping;
-using Harcourts.Face.WebsiteService.Models;
+using Harcourts.Face.WebsiteCommon.Models;
 
 namespace Harcourts.Face.WebsiteService.Mapping
 {

@@ -14,9 +14,9 @@ namespace Harcourts.Face.WebsiteCommon.Lookups
     public interface IPersonLookup<TKey>
     {
         /// <summary>
-        /// Finds a person by the specified key.
+        /// Finds persons by the specified keys.
         /// </summary>
-        /// <param name="key">The person key.</param>
-        IEnumerable<Person> Find(PersonLookupKey<TKey> key);
+        /// <param name="keys">The person key.</param>
+        Task<IEnumerable<Person>> Find(IEnumerable<PersonLookupKey<TKey>> keys);
     }
 }

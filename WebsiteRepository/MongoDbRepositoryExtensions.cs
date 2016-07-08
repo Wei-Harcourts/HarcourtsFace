@@ -34,7 +34,7 @@ namespace Harcourts.Face.WebsiteRepository
                 throw new ArgumentException("Action cannot perform on current repository.");
             }
 
-            var task = repository.Execute(db => Task.FromResult(db.GetCollection<TCollection>(name)));
+            var task = repository.RunCommand(db => Task.FromResult(db.GetCollection<TCollection>(name)));
             return task.Result;
         }
     }

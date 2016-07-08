@@ -27,6 +27,6 @@ namespace Harcourts.Face.WebsiteRepository
         /// Performs action on the provided database.
         /// </summary>
         /// <param name="dbAction">The action to perform.</param>
-        public abstract Task<TResult> Execute<TResult>(Func<IMongoDatabase, Task<TResult>> dbAction);
+        public abstract Task<TResult> RunCommand<TResult>(Func<IMongoDatabase, Task<TResult>> dbAction);
     }
 }

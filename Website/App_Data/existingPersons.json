@@ -96,6 +96,14 @@
     "userData":"Sophia Pratt-Miller|enquiries.ferrymead@harcourts.co.nz"
   },
   {
+    "personId":"10a5f3c4-c442-41fe-8b5c-7f08e463b8cb",
+    "persistedFaceIds":[
+
+    ],
+    "name":"Terri Winder",
+    "userData":"Terri Winder|terri.winder@hotmail.co.nz"
+  },
+  {
     "personId":"130229fe-dab0-42f9-9f8a-46be6e37505d",
     "persistedFaceIds":[
       "656176ae-7b49-443b-928a-8a6b122e730e"
@@ -198,6 +206,14 @@
     ],
     "name":"Rachel Turner",
     "userData":"Rachel Turner|rachel.turner@harcourts.co.nz"
+  },
+  {
+    "personId":"1ba440e4-ba1e-43d5-8f5f-3c743a3eb56e",
+    "persistedFaceIds":[
+      "f6346fab-8e0d-40e6-8e5e-71c3efda4cad"
+    ],
+    "name":"Alex Rowland-Jones",
+    "userData":"Alex Rowland-Jones|alex.rowland-jones@naiharcourts.co.nz"
   },
   {
     "personId":"1c99673c-b103-43df-b61b-5d761338c498",
@@ -656,6 +672,14 @@
     "userData":"Alex Voon AREINZ|alex.voon@harcourts.co.nz"
   },
   {
+    "personId":"54c4dab5-15d0-4602-8a58-c0fd836c239e",
+    "persistedFaceIds":[
+      "2d9271e3-8f1a-45af-99a8-34e06486ceb6"
+    ],
+    "name":"Molly Harman",
+    "userData":"Molly Harman|molly@assetmanagers.co.nz"
+  },
+  {
     "personId":"5726fa80-60ba-4fd7-a88d-0cc9fad9a380",
     "persistedFaceIds":[
       "e65af122-6801-4da6-aff4-9692ca8a47c4"
@@ -1034,7 +1058,7 @@
   {
     "personId":"91420f9e-8ca0-4f9c-afdb-e0d329ef85e7",
     "persistedFaceIds":[
-
+      "1155a1ef-ed52-4002-aa6e-684a0794912b"
     ],
     "name":"Alison Carter",
     "userData":"Alison Carter|alison.carter@harcourts.co.nz"
@@ -1054,6 +1078,14 @@
     ],
     "name":"Carol Rotherham",
     "userData":"Carol Rotherham|letting@assetmanagers.co.nz"
+  },
+  {
+    "personId":"9856e970-3eb7-40ba-ab98-cb1a18d8a0a2",
+    "persistedFaceIds":[
+      "6ba9cbc2-7233-4683-b56e-f102a1f90ee6"
+    ],
+    "name":"Jack Eaton",
+    "userData":"Jack Eaton|jack.eaton@harcourts.co.nz"
   },
   {
     "personId":"98ae3ab6-7117-4c0a-af70-025d79b6a421",
@@ -1312,6 +1344,14 @@
     "userData":"Andy Nurse|andy.nurse@harcourts.co.nz"
   },
   {
+    "personId":"c2d5f954-dc02-49f3-a1c6-19f93f316235",
+    "persistedFaceIds":[
+      "0a7e3306-f83c-491c-819e-c0d3e157814e"
+    ],
+    "name":"Ben Murphy",
+    "userData":"Ben Murphy|ben.murphy@naiharcourts.co.nz"
+  },
+  {
     "personId":"c4158cdb-399d-4b70-943a-71d74b3edbf7",
     "persistedFaceIds":[
       "bbb6018f-5d1c-448e-a1b1-9882161e7074"
@@ -1416,6 +1456,14 @@
     "userData":"Carol Smith|carol.smith@harcourts.co.nz"
   },
   {
+    "personId":"d9ecabff-23c8-459e-ae96-21504aa292e9",
+    "persistedFaceIds":[
+      "53be1d3f-0763-454a-aa70-abf96bf8acfe"
+    ],
+    "name":"Karen Court",
+    "userData":"Karen Court|keithspa@harcourts.co.nz"
+  },
+  {
     "personId":"da37411f-b6a4-4cf0-9486-9a7b2fcf2027",
     "persistedFaceIds":[
       "059d5ad7-98d2-4bc4-92aa-7ac34e8c7870"
@@ -1438,6 +1486,14 @@
     ],
     "name":"Robert McCormack AREINZ FNZIM, Hall of Fame",
     "userData":"Robert McCormack AREINZ FNZIM, Hall of Fame|robt.mccormack@harcourts.co.nz"
+  },
+  {
+    "personId":"e01d3997-e5cf-4221-a069-ba07edd3eaa0",
+    "persistedFaceIds":[
+      "9cc5aaa0-194e-49db-9f55-6bc5edde75e4"
+    ],
+    "name":"Claire Farrelly",
+    "userData":"Claire Farrelly|claire@assetmanagers.co.nz"
   },
   {
     "personId":"e1b325e6-417d-4ba1-932e-8a9e1d6dd68e",

@@ -76,7 +76,7 @@ namespace Harcourts.Face.Recognition.ProjectOxford
             }
             catch (Exception ex)
             {
-                throw new RaiseErrorException(HttpStatusCode.InternalServerError, ex.Message);
+                throw new RaiseErrorException(HttpStatusCode.BadRequest, ex.Message);
             }
         }
 

@@ -185,11 +185,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiServicing\FaceIdentifyConfigurationWrapper.cs" />
+    <Compile Include="ApiServicing\IFaceIdentifyConfiguration.cs" />
+    <Compile Include="ApiServicing\FaceIdentifyConfiguration.cs" />
+    <Compile Include="ApiServicing\FaceIdentifyConfigurationBase.cs" />
+    <Compile Include="ApiServicing\FaceIdentifyService.cs" />
+    <Compile Include="ApiServicing\IFaceIdentifyService.cs" />
+    <Compile Include="Lookups\DbPersonLookup.cs" />
     <Compile Include="Lookups\HttpContextJsonFileProvider.cs" />
     <Compile Include="Lookups\IJsonFileProvider.cs" />
     <Compile Include="Lookups\JsonPersonLookup.cs" />
     <Compile Include="Mapping\ScrawlResultPersonMapper.cs" />
-    <Compile Include="Models\PersonPoco.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -204,6 +210,10 @@
     <ProjectReference Include="..\WebsiteCommon\WebsiteCommon.csproj">
       <Project>{7809bc15-2f21-4979-95be-61fed6f0cb21}</Project>
       <Name>WebsiteCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebsiteRepository\WebsiteRepository.csproj">
+      <Project>{6F113FB5-76EF-4A0C-8083-83D4D7C4D86D}</Project>
+      <Name>WebsiteRepository</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

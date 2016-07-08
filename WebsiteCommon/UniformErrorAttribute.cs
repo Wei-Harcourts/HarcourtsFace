@@ -1,5 +1,4 @@
-﻿using System.Net;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Web.Http.Filters;
 using Harcourts.Face.WebsiteCommon.Models;
 
@@ -12,26 +11,8 @@ namespace Harcourts.Face.WebsiteCommon
     {
         public override void OnException(HttpActionExecutedContext actionExecutedContext)
         {
-            ErrorModel error;
-            HttpStatusCode status;
-            var strongTypeException = actionExecutedContext.Exception as RaiseErrorException;
-            if (strongTypeException == null)
-            {
-                status = HttpStatusCode.InternalServerError;
-                error = new ErrorModel
-                        {
-                            Message = "Whoops! Something has just killed me."
-                        };
-            }
-            else
-            {
-                status = strongTypeException.Status;
-                error = new ErrorModel
-                        {
-                            Message = strongTypeException.Message
-                        };
-            }
-            actionExecutedContext.Response = actionExecutedContext.Request.CreateResponse(status, error);
+            var error = ErrorModel.FromException(actionExecutedContext.Exception);
+            actionExecutedContext.Response = actionExecutedContext.Request.CreateResponse(error.GetHttpStatusCode(), error);
         }
     }
 }

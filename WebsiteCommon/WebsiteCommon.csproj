@@ -148,6 +148,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiServicing\IApiService.cs" />
+    <Compile Include="ApiServicing\IApiServiceConfiguration.cs" />
     <Compile Include="Authorization\Http\FromTrustedRefererAttribute.cs" />
     <Compile Include="Extensions\AutoMappingExtensions.cs" />
     <Compile Include="Extensions\DictionaryExtensions.cs" />
@@ -156,6 +158,7 @@
     <Compile Include="Models\ErrorModel.cs" />
     <Compile Include="Models\IPerson.cs" />
     <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\PersonPoco.cs" />
     <Compile Include="Recognition\IIdentifyServiceProvider.cs" />
     <Compile Include="Lookups\PersonLookupKey.cs" />
     <Compile Include="ModelBinding\FromBase64ImageStringAttribute.cs" />

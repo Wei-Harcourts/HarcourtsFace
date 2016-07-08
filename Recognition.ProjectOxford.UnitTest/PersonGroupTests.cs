@@ -50,7 +50,7 @@ namespace Harcourts.Face.Recognition.ProjectOxford.UnitTest
                         }
                         else
                         {
-                            var existingPerson = existingPersons[(string) person.emailAddress];
+                            var existingPerson = (Person) existingPersons[key];
                             if (existingPerson.PersistedFaceIds == null || !existingPerson.PersistedFaceIds.Any())
                             {
                                 client.AddPersonFaceAsync("faces-harcourts-co-nz", existingPerson.PersonId, person.photo, person.photo);

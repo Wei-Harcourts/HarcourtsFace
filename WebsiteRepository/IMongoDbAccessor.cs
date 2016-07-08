@@ -14,6 +14,6 @@ namespace Harcourts.Face.WebsiteRepository
         /// </summary>
         /// <typeparam name="TResult">The type of the return result.</typeparam>
         /// <param name="dbAction">The action to perform.</param>
-        Task<TResult> Execute<TResult>(Func<IMongoDatabase, Task<TResult>> dbAction);
+        Task<TResult> RunCommand<TResult>(Func<IMongoDatabase, Task<TResult>> dbAction);
     }
 }
