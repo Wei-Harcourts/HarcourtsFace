@@ -11,7 +11,7 @@ using Harcourts.Face.WebsiteService.Lookups;
 namespace Harcourts.Face.Website.Controllers
 {
     [RoutePrefix("api/face")]
-    public class CognitiveServiceController : ActionController
+    public class CognitiveServiceController : ActionController<FaceIdentifyService, FaceIdentifyConfiguration>
     {
         [Route("status")]
         [HttpGet]
@@ -28,15 +28,14 @@ namespace Harcourts.Face.Website.Controllers
             [FromBase64ImageString] Stream imageStream
             )
         {
-            var service = ConfigureService<FaceIdentifyService,
-                FaceIdentifyConfigurationBase,
-                FaceIdentifyConfiguration>(
-                    config =>
-                    {
-                        config.IdentifyServiceProvider = new FaceService();
-                        config.PersonLookupServiceProvider = new DbPersonLookup();
-                        return new FaceIdentifyConfigurationWrapper(config);
-                    });
+            var service = ConfigureService(
+                config =>
+                {
+                    // config.IdentifyServiceProvider = new FaceService();
+                    config.IdentifyServiceProvider = new DummyFaceService();
+                    config.PersonLookupServiceProvider = new DbPersonLookup();
+                    config.RouteTemplate = RequestContext.RouteData.Route.RouteTemplate;
+                });
             var result = await service.Identify(imageStream);
             return result;
         }

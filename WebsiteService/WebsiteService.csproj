@@ -185,10 +185,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApiServicing\FaceIdentifyConfigurationWrapper.cs" />
-    <Compile Include="ApiServicing\IFaceIdentifyConfiguration.cs" />
     <Compile Include="ApiServicing\FaceIdentifyConfiguration.cs" />
-    <Compile Include="ApiServicing\FaceIdentifyConfigurationBase.cs" />
     <Compile Include="ApiServicing\FaceIdentifyService.cs" />
     <Compile Include="ApiServicing\IFaceIdentifyService.cs" />
     <Compile Include="Lookups\DbPersonLookup.cs" />

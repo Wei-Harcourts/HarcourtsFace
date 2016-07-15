@@ -150,7 +150,8 @@
   <ItemGroup>
     <Compile Include="ApiServicing\IApiService.cs" />
     <Compile Include="ApiServicing\IApiServiceConfiguration.cs" />
-    <Compile Include="Authorization\Http\FromTrustedRefererAttribute.cs" />
+    <Compile Include="ApiServicing\SealableObject.cs" />
+    <Compile Include="Authorization\Http\AuthorizeAttribute.cs" />
     <Compile Include="Extensions\AutoMappingExtensions.cs" />
     <Compile Include="Extensions\DictionaryExtensions.cs" />
     <Compile Include="Lookups\IPersonLookup.cs" />

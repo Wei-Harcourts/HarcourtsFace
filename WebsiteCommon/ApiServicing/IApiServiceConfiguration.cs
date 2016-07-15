@@ -1,11 +1,7 @@
 ﻿namespace Harcourts.Face.WebsiteCommon.ApiServicing
 {
-    public interface IApiServiceConfiguration<TService>
+    public interface IApiServiceConfiguration
     {
-        TService Service { get; }
-
-        void SetService(TService service);
-
         void Seal();
     }
 }

@@ -5,7 +5,6 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Security.Claims;
-using System.Text.RegularExpressions;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
@@ -14,9 +13,10 @@ using Harcourts.Face.WebsiteCommon.Models;
 namespace Harcourts.Face.WebsiteCommon.Authorization.Http
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
-    public class FromTrustedRefererAttribute : AuthorizationFilterAttribute
+    public class AuthorizeAttribute : AuthorizationFilterAttribute
     {
-        private static readonly Lazy<List<Regex>> AllowedHosts = new Lazy<List<Regex>>(LoadAllowedHostFromAppSettings);
+        private static readonly Lazy<HashSet<string>> TrustedConsumerKeys =
+            new Lazy<HashSet<string>>(LoadTrustedConsumerKeys);
 
         public override void OnAuthorization(HttpActionContext actionContext)
         {
@@ -34,13 +34,14 @@ namespace Harcourts.Face.WebsiteCommon.Authorization.Http
                 HttpStatusCode.Unauthorized,
                 new ErrorModel
                 {
-                    Message = "The action has been sepcified to run only if referrer is trusted."
+                    Message = "Unauthorized consumer."
                 });
         }
 
         protected virtual bool IsAuthorized(HttpActionContext actionContext)
         {
-            if (!IsFromTrustedReferer(actionContext))
+            var sid = FindTrustedConsumer(actionContext);
+            if (string.IsNullOrEmpty(sid))
             {
                 return false;
             }
@@ -52,9 +53,10 @@ namespace Harcourts.Face.WebsiteCommon.Authorization.Http
                 // Authenticate with trusted referer claims if not authenticated.
                 var claims = new[]
                              {
-                                 new Claim(ClaimTypes.Name, "Trusted Referer")
+                                 new Claim(ClaimTypes.Role, "Trusted Consumer"),
+                                 new Claim(ClaimTypes.Sid, sid),
                              };
-                var identity = new ClaimsIdentity(claims, "TrustedReferer");
+                var identity = new ClaimsIdentity(claims, "TrustedConsumer");
                 var principal = new ClaimsPrincipal(identity);
                 actionContext.RequestContext.Principal = currentPrincipal = principal;
             }
@@ -73,29 +75,22 @@ namespace Harcourts.Face.WebsiteCommon.Authorization.Http
                 .GetCustomAttributes<AllowAnonymousAttribute>().Any();
         }
 
-        private static bool IsFromTrustedReferer(HttpActionContext actionContext)
+        private static string FindTrustedConsumer(HttpActionContext actionContext)
         {
-            var referer = actionContext.Request.Headers.Referrer;
-            if (referer == null)
+            IEnumerable<string> keys;
+            if (!actionContext.Request.Headers.TryGetValues("x-whos-the-agent-key", out keys))
             {
-                // Visiting without referrer header is not allowed.
-                return false;
+                // Visiting without required header is not allowed.
+                return string.Empty;
             }
-            return AllowedHosts.Value.Any(allowedHost => allowedHost.IsMatch(referer.Host));
+            return keys.FirstOrDefault(key => TrustedConsumerKeys.Value.Contains(key, StringComparer.Ordinal));
         }
 
-        private static List<Regex> LoadAllowedHostFromAppSettings()
+        private static HashSet<string> LoadTrustedConsumerKeys()
         {
-            var list = new List<Regex>();
-            var trustedReferers = ConfigurationManager.AppSettings["TrustedReferers"] ?? string.Empty;
-            var hosts = trustedReferers.Split(new[] {','}, StringSplitOptions.RemoveEmptyEntries);
-            foreach (var host in hosts)
-            {
-                var pattern = Regex.Escape(host);
-                pattern = "^" + pattern.Replace("\\*", ".+").Replace("\\?", ".") + "$";
-                list.Add(new Regex(pattern, RegexOptions.IgnoreCase | RegexOptions.Singleline));
-            }
-            return list;
+            var trustedConsumerKeys = ConfigurationManager.AppSettings["TrustedConsumerKeys"] ?? string.Empty;
+            var keys = trustedConsumerKeys.Split(new[] {','}, StringSplitOptions.RemoveEmptyEntries);
+            return new HashSet<string>(keys);
         }
     }
 }

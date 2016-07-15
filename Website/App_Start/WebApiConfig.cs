@@ -30,7 +30,7 @@ namespace Harcourts.Face.Website
 
             // All requests must come from trusted sources.
             config.Filters.Add(new UniformErrorAttribute());
-            config.Filters.Add(new FromTrustedRefererAttribute());
+            config.Filters.Add(new WebsiteCommon.Authorization.Http.AuthorizeAttribute());
             config.Filters.Add(new System.Web.Http.AuthorizeAttribute());
 
             // This is to make result shown as Json in Chrome as per:
